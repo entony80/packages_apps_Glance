@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 CypherOS
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+    <!-- Feedback -->
+    <string-array name="feedback_types">
+        <item>Problema</item>
+        <item>Suggerimento</item>
+        <item>Altro</item>
+    </string-array>
+
+    <!-- Dynamic background -->
+    <string-array name="dynamic_background">
+        <item>Opera d\'arte</item>
+        <item>Icona di notifica</item>
+    </string-array>
+   
+    <!-- Privacy modes -->
+    <string-array name="privacy_mode">
+        <item>Nascondere i contenuti delle notifiche</item>
+        <item>Nascondere i contenuti delle azioni</item>
+    </string-array>
+    <string-array name="privacy_mode_entries" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Notifies' priority -->
+    <string-array name="notify_priorities">
+        <item>Critico e urgenti (chiamate perse, indicazioni, avvisi di emergenza)</item>
+        <item>Importanti (comunicazioni, posta importante)</item>
+        <item>Normale (incluse le notifiche da vecchie applicazioni)</item>
+        <item>Non importante (gli aggiornamenti del software, posta indesiderata)</item>
+        <item>Contestuale e informazioni (tempo, eventi scaduti, suggerimenti)</item>
+    </string-array>
+
+    <!-- Corners' actions -->
+    <string-array name="corners_actions">
+        <item>Sbloccare</item>
+        <item>Avvio fotocamera</item>
+        <item>Avvio telefono</item>
+    </string-array>
+    
+    <!-- Keyguard delays -->
+    <string-array name="keyguard_lock_delay">
+        <item>Nessun ritardo</item>
+        <item>5 secondi</item>
+        <item>15 secondi</item>
+        <item>30 secondi</item>
+    </string-array>
+
+</resources>

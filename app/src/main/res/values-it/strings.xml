@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 CypherOS
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">AcDisplay</string>
+    <string name="app_description">AcDisplay è un nuovo modo di gestire le notifiche in Android. Essa vi informerà sulle nuove notifiche, mostrando un bellissimo schermo minimo, che consente di aprire direttamente dalla schermata di blocco. E se volete vedere che cosa c\'è in corso, si può semplicemente prendere il telefono dalla tasca per visualizzare tutte le ultime notifiche, in modo simile piacevole e minimalista.</string>
+
+    <string name="plugin_xposed_description">Aiuta AcDisplay ad integrarsi più in profondità in Android.</string>
+
+
+    <!--
+        Coins
+        -->
+
+    <string name="bitcoin" translatable="false">Bitcoin</string>
+    <string name="paypal" translatable="false">PayPal</string>
+
+    <!--
+        Device admin / notification access
+         -->
+
+    <string name="permissions_auto_disabled">AcDisplay è stato spento perché mancano alcune autorizzazioni.</string>
+    <string name="permissions_dialog_title">Autorizzazioni necessarie:</string>
+    <string name="permissions_device_admin">Amministratore dispositivo</string>
+    <string name="permissions_device_admin_removed">AcDisplay è stato rimosso dal dispositivo amministratori.</string>
+    <!-- A title of 'Provide device admin rights' system dialog -->
+    <string name="permissions_device_admin_title" translatable="false">@string/app_name</string>
+    <!-- Description of why do we need device admin rights -->
+    <string name="permissions_device_admin_description">Necessari per gestire la politica per lo spegnimento dello schermo.</string>
+    <!-- Shown as a toast, when clicking a button failed. -->
+    <string name="permissions_device_admin_grant_manually">Vai in Impostazioni> Sicurezza> amministratori del dispositivo e verificare su AcDisplay.</string>
+    <string name="permissions_notifications">Notifiche</string>
+    <!-- Description of why do we need notification listener rights -->
+    <string name="permissions_notifications_description">Necessari per ottenere l\'accesso alle notifiche.</string>
+    <!-- Shown as a toast, when clicking a button failed. -->
+    <string name="permissions_notifications_grant_manually">Vai in Impostazioni &gt; Sicurezza &gt; amministratori dispositivo e abilita AcDisplay.</string>
+    <!-- A title of 'Provide device admin rights' system dialog -->
+    <string name="permissions_usage_stats">Uso delle statistiche</string>
+    <!-- Description of why do we need usage stats rights -->
+    <string name="permissions_usage_stats_description">Necessari per evitare sovrapposizioni delle applicazioni come sveglia e telefono.</string>
+    <!-- A big sorry to users, and a big fuck you to the manufacturer -->
+    <string name="permissions_usage_stats_error">Il produttore della periferica ha rimosso questa autorizzazione pubblica dalla loro versione di Android. Nessun modo per risolvere questo problema, tranne l\'attesa di una correzione dal produttore.</string>
+
+    <!--
+        Actions
+        -->
+
+    <string name="action_about">About</string>
+    <string name="action_donate">Donare</string>
+    <string name="action_intro">Introduzione</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_help">Aiuto</string>
+    <string name="action_clear">Pulire</string>
+    <string name="action_configure">Configurazione</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_send_test_notify">Invia notifica di prova</string>
+    <string name="action_show_system_apps">Applicazioni di sistema</string>
+
+    <!--
+        Simple words
+        -->
+
+    <string name="close">Chiudi</string>
+    <string name="later">Dopo</string>
+    <string name="send">Inviare</string>
+    <string name="on">Acceso</string>
+    <string name="off">Spento</string>
+    <string name="enabled">Abilitato</string>
+    <string name="disabled">Disabilitato</string>
+
+    <!--
+        Media
+        -->
+
+    <!-- Pressing button goes to previous track. -->
+    <string name="media_prev_description">Tasto Brano Precedente</string>
+    <!-- Pressing button goes to next track. -->
+    <string name="media_next_description">Tasto Brano Successivo</string>
+    <!-- Pressing button pauses playback -->
+    <string name="media_pause_description">Tasto Pausa</string>
+    <!-- Pressing button pauses playback -->
+    <string name="media_play_description">Tasto Play</string>
+    <!-- Pressing button pauses playback -->
+    <string name="media_stop_description">Tasto Stop</string>
+
+    <!-- Test notification -->
+    <string name="notification_init_text">Basta ignorare questa notifica.</string>
+    <string name="notification_test_message">Si tratta di una notifica di esempio.</string>
+    <string name="notification_test_message_large">Scorri verso il basso per chiudere la notifica. Scorri ovunque per sbloccare.</string>
+
+    <string name="privacy_mode_hidden_content">Contenuto nascosto.</string>
+
+    <!-- Remote actions -->
+    <string name="remote_enable_acdisplay">AcDisplay è abilitato.</string>
+    <string name="remote_disable_acdisplay">AcDisplay è disabilitato.</string>
+    <string name="remote_enable_active_mode">Modalità di AcDisplay è attivata.</string>
+    <string name="remote_disable_active_mode">Modalità di AcDisplay è disattivata.</string>
+
+    <!-- Foreground service that may contain both Keyguard and Active mode. -->
+    <string name="service_bath">Servizi AcDisplay</string>
+    <string name="service_bath_keyguard">Blocco schermo</string>
+    <string name="service_bath_active_mode">Modalità attiva</string>
+    <string name="service_bath_active_mode_dump">Sensori dumper</string>
+
+    <!-- Example: Mon, 7 April -->
+    <string name="status_date_format">EEE, d MMMM</string>
+
+    <!-- Glyph to be overlaid atop the battery when the level is extremely low. -->
+    <string name="batterymeter_very_low_overlay_symbol" translatable="false">!</string>
+    <string name="batterymeter_precise" translatable="false"><xliff:g id="number" example="100">%d</xliff:g>%%</string>
+    <!-- Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=UNKNOWN] -->
+    <string name="accessibility_battery_level">Batteria <xliff:g id="number" example="100">%d</xliff:g> per cento.</string>
+
+</resources>

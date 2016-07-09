@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments.dialogs;
+package com.cypher.base.ui.fragments.dialogs;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -39,21 +39,21 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.providers.LogAttachmentProvider;
-import com.achep.acdisplay.ui.DialogHelper;
-import com.achep.base.Build;
-import com.achep.base.Device;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.providers.LogsProviderBase;
-import com.achep.base.utils.FileUtils;
-import com.achep.base.utils.IntentUtils;
-import com.achep.base.utils.PackageUtils;
-import com.achep.base.utils.ResUtils;
-import com.achep.base.utils.ToastUtils;
-import com.achep.base.utils.ViewUtils;
-import com.achep.base.utils.logcat.Logcat;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.providers.LogAttachmentProvider;
+import com.cypher.glance.ui.DialogHelper;
+import com.cypher.base.Build;
+import com.cypher.base.Device;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.providers.LogsProviderBase;
+import com.cypher.base.utils.FileUtils;
+import com.cypher.base.utils.IntentUtils;
+import com.cypher.base.utils.PackageUtils;
+import com.cypher.base.utils.ResUtils;
+import com.cypher.base.utils.ToastUtils;
+import com.cypher.base.utils.ViewUtils;
+import com.cypher.base.utils.logcat.Logcat;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 
@@ -66,7 +66,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Feedback dialog fragment.

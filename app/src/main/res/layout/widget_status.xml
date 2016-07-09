@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -17,7 +17,7 @@
   ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
   ~ MA  02110-1301, USA.
   -->
-<com.achep.acdisplay.ui.widgets.status.StatusWidget xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cypher.glance.ui.widgets.status.StatusWidget xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -25,13 +25,13 @@
     android:orientation="horizontal">
 
     <!-- TODO: Write normal Date widget. -->
-    <com.achep.acdisplay.ui.widgets.DateView
+    <com.cypher.glance.ui.widgets.DateView
         android:id="@+id/date"
         style="?acDisplaySubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.achep.acdisplay.ui.widgets.status.BatteryMeterView
+    <com.cypher.glance.ui.widgets.status.BatteryMeterView
         android:id="@+id/battery"
         style="?acDisplaySubtitle"
         android:layout_width="wrap_content"
@@ -44,4 +44,4 @@
         app:battery_padding="4dp"
         app:battery_width="@dimen/status_bar_battery_width" />
 
-</com.achep.acdisplay.ui.widgets.status.StatusWidget>
+</com.cypher.glance.ui.widgets.status.StatusWidget>

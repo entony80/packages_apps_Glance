@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.utils;
+package com.cypher.base.utils;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 
-import com.achep.base.Device;
+import com.cypher.base.Device;
 
 import java.util.IllegalFormatException;
 import java.util.Locale;

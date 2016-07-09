@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments.dialogs;
+package com.cypher.base.ui.fragments.dialogs;
 
-import com.achep.base.ui.fragments.leakcanary.LeakWatchDialogFragment;
+import com.cypher.base.ui.fragments.leakcanary.LeakWatchDialogFragment;
 
 /**
  * Created by Artem Chepurnoy on 25.10.2014.

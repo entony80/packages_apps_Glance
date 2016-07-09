@@ -1,10 +1,10 @@
-package com.achep.base.services;
+package com.cypher.base.services;
 
 import android.app.Service;
 import android.content.Intent;
 
-import com.achep.base.interfaces.IPowerSave;
-import com.achep.base.utils.power.PowerSaveDetector;
+import com.cypher.base.interfaces.IPowerSave;
+import com.cypher.base.utils.power.PowerSaveDetector;
 
 /**
  * @author Artem Chepurnoy

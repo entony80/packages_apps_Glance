@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -23,7 +23,7 @@
     android:layout_height="wrap_content"
     android:background="?colorSecondary">
 
-    <com.achep.base.ui.widgets.SwitchBar
+    <com.cypher.base.ui.widgets.SwitchBar
         android:id="@+id/switch_bar"
         style="@style/padding_content_horizontal"
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:background="?android:listChoiceBackgroundIndicator"
         android:gravity="center_vertical">
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,5 +56,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-    </com.achep.base.ui.widgets.SwitchBar>
+    </com.cypher.base.ui.widgets.SwitchBar>
 </FrameLayout>

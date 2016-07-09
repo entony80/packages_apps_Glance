@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationManager;
@@ -30,17 +30,17 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.blacklist.AppConfig;
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.base.AppHeap;
-import com.achep.base.Device;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.interfaces.ISubscriptable;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.Operator;
+import com.cypher.glance.App;
+import com.cypher.glance.Config;
+import com.cypher.glance.blacklist.AppConfig;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.base.AppHeap;
+import com.cypher.base.Device;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.interfaces.ISubscriptable;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.Operator;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -49,7 +49,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Created by Artem on 27.12.13.
@@ -420,7 +420,7 @@ public class NotificationPresenter implements
     /**
      * Posts notification to global list, notifies every follower
      * about this change, and tries to launch
-     * {@link com.achep.acdisplay.ui.activities.AcDisplayActivity}.
+     * {@link com.cypher.glance.ui.activities.AcDisplayActivity}.
      * <p><i>
      * To create {@link OpenNotification}, use
      * {@link OpenNotification#newInstance(StatusBarNotification)} or

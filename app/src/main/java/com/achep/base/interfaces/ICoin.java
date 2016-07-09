@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.interfaces;
+package com.cypher.base.interfaces;
 
 import android.net.Uri;
 import android.support.annotation.DrawableRes;
@@ -55,8 +55,8 @@ public interface ICoin {
     /**
      * @param amount the amount to send, or if {@code <= 0} blank field.
      * @return Uri to page through which you can sends me moneys.
-     * @see com.achep.base.utils.CoinUtils#getPaymentIntent(ICoin)
-     * @see com.achep.base.utils.CoinUtils#getPaymentIntent(ICoin, double)
+     * @see com.cypher.base.utils.CoinUtils#getPaymentIntent(ICoin)
+     * @see com.cypher.base.utils.CoinUtils#getPaymentIntent(ICoin, double)
      */
     @NonNull
     Uri getPaymentUri(double amount);

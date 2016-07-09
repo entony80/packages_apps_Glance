@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay;
+package com.cypher.glance;
 
 import android.app.Notification;
 import android.content.Context;
@@ -27,18 +27,18 @@ import android.support.annotation.Nullable;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.notifications.OpenNotification;
-import com.achep.acdisplay.services.activemode.sensors.ProximitySensor;
-import com.achep.acdisplay.ui.activities.AcDisplayActivity;
-import com.achep.acdisplay.ui.activities.KeyguardActivity;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.power.PowerUtils;
-import com.achep.base.utils.zen.ZenConsts;
-import com.achep.base.utils.zen.ZenUtils;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.notifications.OpenNotification;
+import com.cypher.glance.services.activemode.sensors.ProximitySensor;
+import com.cypher.glance.ui.activities.AcDisplayActivity;
+import com.cypher.glance.ui.activities.KeyguardActivity;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.power.PowerUtils;
+import com.cypher.base.utils.zen.ZenConsts;
+import com.cypher.base.utils.zen.ZenUtils;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Created by Artem on 07.03.14.

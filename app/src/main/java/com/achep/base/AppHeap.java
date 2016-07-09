@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,18 +16,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base;
+package com.cypher.base;
 
 import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.achep.base.billing.CheckoutInternal;
-import com.achep.base.interfaces.IConfiguration;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.permissions.RuntimePermissions;
-import com.achep.base.tests.Check;
-import com.achep.base.timber.ReleaseTree;
+import com.cypher.base.billing.CheckoutInternal;
+import com.cypher.base.interfaces.IConfiguration;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.permissions.RuntimePermissions;
+import com.cypher.base.tests.Check;
+import com.cypher.base.timber.ReleaseTree;
 import com.drivemode.android.typeface.TypefaceHelper;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;

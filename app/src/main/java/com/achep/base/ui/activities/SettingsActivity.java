@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.activities;
+package com.cypher.base.ui.activities;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -40,13 +40,13 @@ import android.util.Log;
 import android.util.Xml;
 import android.view.ViewGroup;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.ui.activities.settings.Settings2;
-import com.achep.base.Device;
-import com.achep.base.dashboard.DashboardCategory;
-import com.achep.base.dashboard.DashboardTile;
-import com.achep.base.ui.fragments.DashboardFragment;
-import com.achep.base.utils.xml.XmlUtils;
+import com.cypher.glance.R;
+import com.cypher.glance.ui.activities.settings.Settings2;
+import com.cypher.base.Device;
+import com.cypher.base.dashboard.DashboardCategory;
+import com.cypher.base.dashboard.DashboardTile;
+import com.cypher.base.ui.fragments.DashboardFragment;
+import com.cypher.base.utils.xml.XmlUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

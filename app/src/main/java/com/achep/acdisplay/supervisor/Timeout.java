@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.supervisor;
+package com.cypher.glance.supervisor;
 
 import android.os.Message;
 import android.os.SystemClock;
@@ -24,11 +24,11 @@ import android.support.annotation.NonNull;
 import android.view.animation.LinearInterpolator;
 import android.widget.ProgressBar;
 
-import com.achep.acdisplay.ui.animations.ProgressBarAnimation;
-import com.achep.base.async.WeakHandler;
-import com.achep.base.interfaces.ISubscriptable;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.MathUtils;
+import com.cypher.glance.ui.animations.ProgressBarAnimation;
+import com.cypher.base.async.WeakHandler;
+import com.cypher.base.interfaces.ISubscriptable;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.MathUtils;
 
 import java.util.ArrayList;
 

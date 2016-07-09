@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments.dialogs;
+package com.cypher.base.ui.fragments.dialogs;
 
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
@@ -29,10 +29,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.permissions.Permission;
-import com.achep.base.ui.adapters.PermissionAdapter;
-import com.achep.base.utils.ToastUtils;
+import com.cypher.glance.R;
+import com.cypher.base.permissions.Permission;
+import com.cypher.base.ui.adapters.PermissionAdapter;
+import com.cypher.base.utils.ToastUtils;
 import com.afollestad.materialdialogs.MaterialDialog;
 
 import java.util.ArrayList;

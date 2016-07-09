@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,13 +16,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.permissions;
+package com.cypher.base.permissions;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.interfaces.IPermission;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.interfaces.IPermission;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
@@ -116,10 +116,10 @@ public class PermissionGroup implements IOnLowMemory, IPermission {
         /**
          * Adds new permission to the group.
          *
-         * @see com.achep.base.permissions.Permission#PERMISSION_ACCESSIBILITY
-         * @see com.achep.base.permissions.Permission#PERMISSION_DEVICE_ADMIN
-         * @see com.achep.base.permissions.Permission#PERMISSION_NOTIFICATION_LISTENER
-         * @see com.achep.base.permissions.Permission#PERMISSION_USAGE_STATS
+         * @see com.cypher.base.permissions.Permission#PERMISSION_ACCESSIBILITY
+         * @see com.cypher.base.permissions.Permission#PERMISSION_DEVICE_ADMIN
+         * @see com.cypher.base.permissions.Permission#PERMISSION_NOTIFICATION_LISTENER
+         * @see com.cypher.base.permissions.Permission#PERMISSION_USAGE_STATS
          */
         @NonNull
         public Builder add(@NonNull String permission) {

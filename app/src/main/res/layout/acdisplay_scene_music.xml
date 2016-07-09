@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -34,13 +34,13 @@
         android:paddingRight="14dp"
         android:paddingStart="14dp">
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/media_title"
             style="?acDisplayTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/media_subtitle"
             style="?acDisplaySubtitle"
             android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
         android:gravity="center_vertical"
         android:visibility="gone">
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/playback_position"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginEnd="8dp" />
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

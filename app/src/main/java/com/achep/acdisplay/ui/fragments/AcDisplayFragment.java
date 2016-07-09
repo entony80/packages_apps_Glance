@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.fragments;
+package com.cypher.glance.ui.fragments;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -53,43 +53,43 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.Timeout;
-import com.achep.acdisplay.compat.SceneCompat;
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.notifications.NotificationUtils;
-import com.achep.acdisplay.notifications.OpenNotification;
-import com.achep.acdisplay.services.media.MediaController2;
-import com.achep.acdisplay.services.media.MediaControlsHelper;
-import com.achep.acdisplay.ui.CornerHelper;
-import com.achep.acdisplay.ui.DynamicBackground;
-import com.achep.acdisplay.ui.activities.AcDisplayActivity;
-import com.achep.acdisplay.ui.components.ClockWidget;
-import com.achep.acdisplay.ui.components.HostWidget;
-import com.achep.acdisplay.ui.components.MediaWidget;
-import com.achep.acdisplay.ui.components.NotifyWidget;
-import com.achep.acdisplay.ui.components.Widget;
-import com.achep.acdisplay.ui.view.ForwardingLayout;
-import com.achep.acdisplay.ui.view.ForwardingListener;
-import com.achep.acdisplay.ui.widgets.CircleView;
-import com.achep.base.Device;
-import com.achep.base.async.WeakHandler;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.tests.Check;
-import com.achep.base.ui.activities.ActivityBase;
-import com.achep.base.ui.fragments.leakcanary.LeakWatchFragment;
-import com.achep.base.ui.widgets.TextView;
-import com.achep.base.utils.FloatProperty;
-import com.achep.base.utils.MathUtils;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.Timeout;
+import com.cypher.glance.compat.SceneCompat;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.notifications.NotificationUtils;
+import com.cypher.glance.notifications.OpenNotification;
+import com.cypher.glance.services.media.MediaController2;
+import com.cypher.glance.services.media.MediaControlsHelper;
+import com.cypher.glance.ui.CornerHelper;
+import com.cypher.glance.ui.DynamicBackground;
+import com.cypher.glance.ui.activities.AcDisplayActivity;
+import com.cypher.glance.ui.components.ClockWidget;
+import com.cypher.glance.ui.components.HostWidget;
+import com.cypher.glance.ui.components.MediaWidget;
+import com.cypher.glance.ui.components.NotifyWidget;
+import com.cypher.glance.ui.components.Widget;
+import com.cypher.glance.ui.view.ForwardingLayout;
+import com.cypher.glance.ui.view.ForwardingListener;
+import com.cypher.glance.ui.widgets.CircleView;
+import com.cypher.base.Device;
+import com.cypher.base.async.WeakHandler;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.tests.Check;
+import com.cypher.base.ui.activities.ActivityBase;
+import com.cypher.base.ui.fragments.leakcanary.LeakWatchFragment;
+import com.cypher.base.ui.widgets.TextView;
+import com.cypher.base.utils.FloatProperty;
+import com.cypher.base.utils.MathUtils;
+import com.cypher.base.utils.ViewUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * This is main fragment of ActiveDisplay app.
@@ -211,7 +211,7 @@ public class AcDisplayFragment extends LeakWatchFragment implements
      * Unlocks the keyguard and runs {@link Runnable runnable} when unlocked.
      *
      * @param finish {@code true} to finish activity, {@code false} to keep it
-     * @see com.achep.acdisplay.ui.activities.KeyguardActivity
+     * @see com.cypher.glance.ui.activities.KeyguardActivity
      */
     public void unlock(Runnable runnable, boolean finish) {
         if (!isNotDemo()) {
@@ -488,7 +488,7 @@ public class AcDisplayFragment extends LeakWatchFragment implements
 
     /**
      * Updates the size of all widget's icons as
-     * {@link com.achep.acdisplay.Config#getIconSizePx() set} in config.
+     * {@link com.cypher.glance.Config#getIconSizePx() set} in config.
      */
     private void updateIconsSize() {
         if (!isResumed()) {
@@ -825,14 +825,14 @@ public class AcDisplayFragment extends LeakWatchFragment implements
 
 
     /**
-     * @see #showWidget(com.achep.acdisplay.ui.components.Widget, boolean)
+     * @see #showWidget(com.cypher.glance.ui.components.Widget, boolean)
      */
     protected void showWidget(@NonNull Widget widget) {
         showWidget(widget, true);
     }
 
     /**
-     * @see #showWidget(com.achep.acdisplay.ui.components.Widget)
+     * @see #showWidget(com.cypher.glance.ui.components.Widget)
      */
     protected void showWidget(@NonNull Widget widget, boolean animate) {
         mHandler.removeMessages(MSG_SHOW_HOME_WIDGET);
@@ -976,7 +976,7 @@ public class AcDisplayFragment extends LeakWatchFragment implements
     /**
      * Changes current scene to given one.
      *
-     * @see #showWidget(com.achep.acdisplay.ui.components.Widget)
+     * @see #showWidget(com.cypher.glance.ui.components.Widget)
      */
     @SuppressLint("NewApi")
     protected synchronized final void goScene(@NonNull SceneCompat sceneCompat, boolean animate) {
@@ -1093,14 +1093,14 @@ public class AcDisplayFragment extends LeakWatchFragment implements
      * in order to conserve battery as much as possible.
      *
      * @return {@code true} if the device is currently in power save mode, {@code false} otherwise.
-     * @see com.achep.base.utils.power.PowerSaveDetector
+     * @see com.cypher.base.utils.power.PowerSaveDetector
      */
     public boolean isPowerSaveMode() {
         return mActivity.isPowerSaveMode();
     }
 
     /**
-     * @return {@code true} if this fragment is attached to {@link com.achep.acdisplay.ui.activities.AcDisplayActivity} and
+     * @return {@code true} if this fragment is attached to {@link com.cypher.glance.ui.activities.AcDisplayActivity} and
      * matches parent layout, {@code false} if this is only preview.
      */
     public boolean isNotDemo() {

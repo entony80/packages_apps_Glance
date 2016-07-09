@@ -1,4 +1,4 @@
-package com.achep.acdisplay.ui.drawables;
+package com.cypher.glance.ui.drawables;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,8 +8,8 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.achep.acdisplay.Config;
-import com.achep.base.content.ConfigBase;
+import com.cypher.glance.Config;
+import com.cypher.base.content.ConfigBase;
 
 /**
  * Created by Artem Chepurnoy on 13.05.2015.

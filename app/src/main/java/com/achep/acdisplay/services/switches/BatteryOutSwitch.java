@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.switches;
+package com.cypher.glance.services.switches;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,12 +24,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.support.annotation.NonNull;
 
-import com.achep.acdisplay.services.Switch;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.utils.power.PowerUtils;
+import com.cypher.glance.services.Switch;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.utils.power.PowerUtils;
 
 /**
- * Prevents {@link com.achep.acdisplay.services.SwitchService} from working
+ * Prevents {@link com.cypher.glance.services.SwitchService} from working
  * while the battery level is {@link #BATTERY_LOW_LEVEL low}.
  *
  * @author Artem Chepurnoy

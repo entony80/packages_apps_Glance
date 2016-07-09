@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui;
+package com.cypher.glance.ui;
 
 import android.content.res.Resources;
 import android.os.Build;
@@ -28,16 +28,16 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 
-import com.achep.acdisplay.R;
-import com.achep.base.Device;
-import com.achep.base.permissions.Permission;
-import com.achep.base.tests.Check;
-import com.achep.base.ui.fragments.dialogs.AboutDialog;
-import com.achep.base.ui.fragments.dialogs.DonateDialog;
-import com.achep.base.ui.fragments.dialogs.FeedbackDialog;
-import com.achep.base.ui.fragments.dialogs.HelpDialog;
-import com.achep.base.ui.fragments.dialogs.PermissionsDialog;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.R;
+import com.cypher.base.Device;
+import com.cypher.base.permissions.Permission;
+import com.cypher.base.tests.Check;
+import com.cypher.base.ui.fragments.dialogs.AboutDialog;
+import com.cypher.base.ui.fragments.dialogs.DonateDialog;
+import com.cypher.base.ui.fragments.dialogs.FeedbackDialog;
+import com.cypher.base.ui.fragments.dialogs.HelpDialog;
+import com.cypher.base.ui.fragments.dialogs.PermissionsDialog;
+import com.cypher.base.utils.ResUtils;
 import com.afollestad.materialdialogs.MaterialDialog;
 
 /**

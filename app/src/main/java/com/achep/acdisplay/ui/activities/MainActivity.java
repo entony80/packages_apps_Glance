@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities;
+package com.cypher.glance.ui.activities;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.Context;
@@ -33,18 +33,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.CompoundButton;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.notifications.NotificationHelper;
-import com.achep.acdisplay.ui.DialogHelper;
-import com.achep.acdisplay.ui.activities.base.BaseActivity;
-import com.achep.acdisplay.ui.activities.settings.Settings2;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.permissions.Permission;
-import com.achep.base.ui.SwitchBarPermissible;
-import com.achep.base.ui.widgets.SwitchBar;
-import com.achep.base.utils.PackageUtils;
+import com.cypher.glance.App;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.notifications.NotificationHelper;
+import com.cypher.glance.ui.DialogHelper;
+import com.cypher.glance.ui.activities.base.BaseActivity;
+import com.cypher.glance.ui.activities.settings.Settings2;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.permissions.Permission;
+import com.cypher.base.ui.SwitchBarPermissible;
+import com.cypher.base.ui.widgets.SwitchBar;
+import com.cypher.base.utils.PackageUtils;
 
 /**
  * @author Artem Chepurnoy

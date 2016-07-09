@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 // Modified 2014 AChep@xda <artemchep@gmail.com>
-package com.achep.acdisplay.ui.widgets.status;
+package com.cypher.glance.ui.widgets.status;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -35,8 +35,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.R;
+import com.cypher.base.utils.ResUtils;
 
 // TODO: Bring RTL support
 public class BatteryMeterView extends TextView {

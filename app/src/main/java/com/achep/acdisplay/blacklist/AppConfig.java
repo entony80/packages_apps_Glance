@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,13 +16,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.blacklist;
+package com.cypher.glance.blacklist;
 
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.achep.base.content.SharedList;
+import com.cypher.base.content.SharedList;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
@@ -109,7 +109,7 @@ public class AppConfig {
     }
 
     /**
-     * Compares given {@link com.achep.acdisplay.blacklist.AppConfig} with
+     * Compares given {@link com.cypher.glance.blacklist.AppConfig} with
      * this one. <b>Warning: </b> the only criterion of equality is the package name!
      */
     @Override

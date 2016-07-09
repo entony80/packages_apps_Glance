@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.providers;
+package com.cypher.glance.providers;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -29,12 +29,12 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.base.content.ConfigBase;
+import com.cypher.glance.App;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.base.content.ConfigBase;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Toggle widget provider.

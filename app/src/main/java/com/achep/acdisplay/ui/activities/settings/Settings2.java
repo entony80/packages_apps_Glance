@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,22 +16,22 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities.settings;
+package com.cypher.glance.ui.activities.settings;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.XmlRes;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.services.activemode.ActiveModeService;
-import com.achep.acdisplay.ui.fragments.settings.ActiveModeSettings;
-import com.achep.acdisplay.ui.fragments.settings.InterfaceSettings;
-import com.achep.acdisplay.ui.fragments.settings.KeyguardSettings;
-import com.achep.acdisplay.ui.fragments.settings.MoreSettings;
-import com.achep.acdisplay.ui.fragments.settings.NotificationSettings;
-import com.achep.base.dashboard.DashboardTile;
-import com.achep.base.ui.activities.SettingsActivity;
+import com.cypher.glance.R;
+import com.cypher.glance.services.activemode.ActiveModeService;
+import com.cypher.glance.ui.fragments.settings.ActiveModeSettings;
+import com.cypher.glance.ui.fragments.settings.InterfaceSettings;
+import com.cypher.glance.ui.fragments.settings.KeyguardSettings;
+import com.cypher.glance.ui.fragments.settings.MoreSettings;
+import com.cypher.glance.ui.fragments.settings.NotificationSettings;
+import com.cypher.base.dashboard.DashboardTile;
+import com.cypher.base.ui.activities.SettingsActivity;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Created by Artem Chepurnoy on 02.01.2015.

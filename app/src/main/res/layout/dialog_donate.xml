@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -17,7 +17,7 @@
   ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
   ~ MA  02110-1301, USA.
   -->
-<com.achep.base.ui.widgets.HeaderGridView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cypher.base.ui.widgets.HeaderGridView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/grid"
     android:layout_width="match_parent"
     android:layout_height="296dp"

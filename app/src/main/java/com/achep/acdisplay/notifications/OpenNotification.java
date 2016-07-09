@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -36,22 +36,22 @@ import android.support.v7.graphics.Palette;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.utils.BitmapUtils;
-import com.achep.base.Device;
-import com.achep.base.async.AsyncTask;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.interfaces.ISubscriptable;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.PackageUtils;
-import com.achep.base.utils.smiley.SmileyParser;
+import com.cypher.glance.Config;
+import com.cypher.glance.utils.BitmapUtils;
+import com.cypher.base.Device;
+import com.cypher.base.async.AsyncTask;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.interfaces.ISubscriptable;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.PackageUtils;
+import com.cypher.base.utils.smiley.SmileyParser;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * @author Artem Chepurnoy
@@ -412,8 +412,8 @@ public abstract class OpenNotification implements
     /**
      * Notifies all listeners about this event.
      *
-     * @see com.achep.acdisplay.notifications.OpenNotification.OnNotificationDataChangedListener
-     * @see #registerListener(com.achep.acdisplay.notifications.OpenNotification.OnNotificationDataChangedListener)
+     * @see com.cypher.glance.notifications.OpenNotification.OnNotificationDataChangedListener
+     * @see #registerListener(com.cypher.glance.notifications.OpenNotification.OnNotificationDataChangedListener)
      */
     private void notifyListeners(int event) {
         for (OnNotificationDataChangedListener listener : mListeners) {
@@ -483,7 +483,7 @@ public abstract class OpenNotification implements
 
     /**
      * Asynchronously generates the background of notification. The background is
-     * used by {@link com.achep.acdisplay.ui.fragments.AcDisplayFragment}.
+     * used by {@link com.cypher.glance.ui.fragments.AcDisplayFragment}.
      *
      * @see #clearBackground()
      */

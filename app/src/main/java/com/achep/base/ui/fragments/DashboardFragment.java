@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments;
+package com.cypher.base.ui.fragments;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,17 +29,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.async.WeakHandler;
-import com.achep.base.dashboard.DashboardCategory;
-import com.achep.base.dashboard.DashboardTile;
-import com.achep.base.ui.activities.SettingsActivity;
-import com.achep.base.ui.fragments.leakcanary.LeakWatchFragment;
-import com.achep.base.ui.widgets.DashboardTileView;
+import com.cypher.glance.R;
+import com.cypher.base.async.WeakHandler;
+import com.cypher.base.dashboard.DashboardCategory;
+import com.cypher.base.dashboard.DashboardTile;
+import com.cypher.base.ui.activities.SettingsActivity;
+import com.cypher.base.ui.fragments.leakcanary.LeakWatchFragment;
+import com.cypher.base.ui.widgets.DashboardTileView;
 
 import java.util.List;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 public class DashboardFragment extends LeakWatchFragment {
 

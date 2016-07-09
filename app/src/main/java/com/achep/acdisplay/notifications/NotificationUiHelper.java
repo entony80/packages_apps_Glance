@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -33,14 +33,14 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 import android.text.style.StyleSpan;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.interfaces.INotificatiable;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.CsUtils;
-import com.achep.base.utils.NullUtils;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.RefCacheBase;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.interfaces.INotificatiable;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.CsUtils;
+import com.cypher.base.utils.NullUtils;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.RefCacheBase;
 
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;

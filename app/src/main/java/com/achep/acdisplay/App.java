@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay;
+package com.cypher.glance;
 
 import android.app.Application;
 import android.content.Context;
@@ -24,20 +24,20 @@ import android.content.res.Resources;
 import android.support.annotation.NonNull;
 import android.text.Html;
 
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.acdisplay.notifications.NotificationHelper;
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.permissions.AccessManager;
-import com.achep.acdisplay.services.KeyguardService;
-import com.achep.acdisplay.services.SensorsDumpService;
-import com.achep.acdisplay.services.activemode.ActiveModeService;
-import com.achep.base.AppHeap;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.interfaces.IConfiguration;
-import com.achep.base.permissions.Permission;
-import com.achep.base.permissions.PermissionGroup;
-import com.achep.base.utils.RawReader;
-import com.achep.base.utils.smiley.SmileyParser;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.glance.notifications.NotificationHelper;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.permissions.AccessManager;
+import com.cypher.glance.services.KeyguardService;
+import com.cypher.glance.services.SensorsDumpService;
+import com.cypher.glance.services.activemode.ActiveModeService;
+import com.cypher.base.AppHeap;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.interfaces.IConfiguration;
+import com.cypher.base.permissions.Permission;
+import com.cypher.base.permissions.PermissionGroup;
+import com.cypher.base.utils.RawReader;
+import com.cypher.base.utils.smiley.SmileyParser;
 
 import java.util.Arrays;
 import java.util.List;
@@ -57,22 +57,22 @@ public class App extends Application {
     public static final int ID_NOTIFY_BATH = 50;
     public static final int ID_NOTIFY_APP_AUTO_DISABLED = 60;
 
-    public static final String ACTION_BIND_MEDIA_CONTROL_SERVICE = "com.achep.acdisplay.BIND_MEDIA_CONTROL_SERVICE";
+    public static final String ACTION_BIND_MEDIA_CONTROL_SERVICE = "com.cypher.glance.BIND_MEDIA_CONTROL_SERVICE";
 
-    public static final String ACTION_ENABLE = "com.achep.acdisplay.ENABLE";
-    public static final String ACTION_DISABLE = "com.achep.acdisplay.DISABLE";
-    public static final String ACTION_TOGGLE = "com.achep.acdisplay.TOGGLE";
-    public static final String ACTION_ACTIVE_MODE_ENABLE = "com.achep.acdisplay.ACTIVE_MODE_ENABLE";
-    public static final String ACTION_ACTIVE_MODE_DISABLE = "com.achep.acdisplay.ACTIVE_MODE_DISABLE";
-    public static final String ACTION_ACTIVE_MODE_TOGGLE = "com.achep.acdisplay.ACTIVE_MODE_TOGGLE";
+    public static final String ACTION_ENABLE = "com.cypher.glance.ENABLE";
+    public static final String ACTION_DISABLE = "com.cypher.glance.DISABLE";
+    public static final String ACTION_TOGGLE = "com.cypher.glance.TOGGLE";
+    public static final String ACTION_ACTIVE_MODE_ENABLE = "com.cypher.glance.ACTIVE_MODE_ENABLE";
+    public static final String ACTION_ACTIVE_MODE_DISABLE = "com.cypher.glance.ACTIVE_MODE_DISABLE";
+    public static final String ACTION_ACTIVE_MODE_TOGGLE = "com.cypher.glance.ACTIVE_MODE_TOGGLE";
 
-    public static final String ACTION_STATE_START = "com.achep.acdisplay.STATE_START";
-    public static final String ACTION_STATE_RESUME = "com.achep.acdisplay.STATE_RESUME";
-    public static final String ACTION_STATE_PAUSE = "com.achep.acdisplay.STATE_PAUSE";
-    public static final String ACTION_STATE_STOP = "com.achep.acdisplay.STATE_STOP";
+    public static final String ACTION_STATE_START = "com.cypher.glance.STATE_START";
+    public static final String ACTION_STATE_RESUME = "com.cypher.glance.STATE_RESUME";
+    public static final String ACTION_STATE_PAUSE = "com.cypher.glance.STATE_PAUSE";
+    public static final String ACTION_STATE_STOP = "com.cypher.glance.STATE_STOP";
 
-    public static final String ACTION_EAT_HOME_PRESS_START = "com.achep.acdisplay.EAT_HOME_PRESS_START";
-    public static final String ACTION_EAT_HOME_PRESS_STOP = "com.achep.acdisplay.EAT_HOME_PRESS_STOP";
+    public static final String ACTION_EAT_HOME_PRESS_START = "com.cypher.glance.EAT_HOME_PRESS_START";
+    public static final String ACTION_EAT_HOME_PRESS_STOP = "com.cypher.glance.EAT_HOME_PRESS_STOP";
 
     public static final String ACTION_INTERNAL_TIMEOUT = "TIMEOUT";
     public static final String ACTION_INTERNAL_PING_SENSORS = "PING_SENSORS";

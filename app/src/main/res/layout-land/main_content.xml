@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -35,7 +35,7 @@
 
         <fragment
             android:id="@+id/acdisplay_fragment"
-            android:name="com.achep.acdisplay.ui.fragments.AcDisplayFragment"
+            android:name="com.cypher.glance.ui.fragments.AcDisplayFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -52,7 +52,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingStart="@dimen/activity_horizontal_margin">
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

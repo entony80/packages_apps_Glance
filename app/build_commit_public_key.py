@@ -1,4 +1,4 @@
-# Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+# Copyright (C) 2016 CypherOS
 #
 # This script is published under the terms of the GNU GPL v2.0 license.
 # See http://www.gnu.org/licenses/gpl-2.0.html

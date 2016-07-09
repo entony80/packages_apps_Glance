@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services;
+package com.cypher.glance.services;
 
 import android.support.annotation.NonNull;
 
-import com.achep.acdisplay.Atomic;
+import com.cypher.glance.Atomic;
 
 /**
  * @author Artem Chepurnoy

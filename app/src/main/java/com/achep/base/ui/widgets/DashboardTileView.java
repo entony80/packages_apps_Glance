@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.widgets;
+package com.cypher.base.ui.widgets;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -28,10 +28,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.dashboard.DashboardTile;
-import com.achep.base.ui.activities.SettingsActivity;
-import com.achep.base.utils.RippleUtils;
+import com.cypher.glance.R;
+import com.cypher.base.dashboard.DashboardTile;
+import com.cypher.base.ui.activities.SettingsActivity;
+import com.cypher.base.utils.RippleUtils;
 
 public class DashboardTileView extends LinearLayout implements View.OnClickListener {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -17,7 +17,7 @@
   ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
   ~ MA  02110-1301, USA.
   -->
-<com.achep.acdisplay.ui.widgets.notification.NotificationWidget xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cypher.glance.ui.widgets.notification.NotificationWidget xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:padding="8dp">
 
         <!-- Icon -->
-        <com.achep.acdisplay.ui.widgets.notification.NotificationIcon
+        <com.cypher.glance.ui.widgets.notification.NotificationIcon
             android:id="@+id/icon"
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -41,7 +41,7 @@
             android:scaleType="centerInside" />
 
         <!-- Title text -->
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/title"
             style="?acDisplayTitle"
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
             tools:ignore="UnusedAttribute" />
 
         <!-- When -->
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/when"
             style="?acDisplaySubtitle"
             android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
             android:minHeight="36dp" />
 
         <!-- Subtext -->
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/subtext"
             style="?acDisplaySubtitle"
             android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
             android:layout_toEndOf="@id/when"
             android:layout_toRightOf="@id/when" />
 
-        <com.achep.acdisplay.ui.widgets.notification.NotificationMessages
+        <com.cypher.glance.ui.widgets.notification.NotificationMessages
             android:id="@+id/message_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,10 +91,10 @@
 
     </RelativeLayout>
 
-    <com.achep.acdisplay.ui.widgets.notification.NotificationActions
+    <com.cypher.glance.ui.widgets.notification.NotificationActions
         android:id="@+id/actions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" />
 
-</com.achep.acdisplay.ui.widgets.notification.NotificationWidget>
+</com.cypher.glance.ui.widgets.notification.NotificationWidget>

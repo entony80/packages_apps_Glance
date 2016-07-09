@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.media;
+package com.cypher.glance.services.media;
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,16 +26,16 @@ import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Log;
 import android.view.KeyEvent;
 
-import com.achep.acdisplay.Atomic;
-import com.achep.base.Device;
-import com.achep.base.interfaces.ISubscriptable;
-import com.achep.base.tests.Check;
+import com.cypher.glance.Atomic;
+import com.cypher.base.Device;
+import com.cypher.base.interfaces.ISubscriptable;
+import com.cypher.base.tests.Check;
 
 import java.util.ArrayList;
 
 import timber.log.Timber;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Allows an app to interact with an ongoing media session. Media buttons and
@@ -115,7 +115,7 @@ public abstract class MediaController2 implements
          * from here, otherwise it will crash!
          *
          * @param metadata The current metadata for the session.
-         * @see com.achep.acdisplay.services.media.Metadata
+         * @see com.cypher.glance.services.media.Metadata
          * @see #getMetadata()
          */
         void onMetadataChanged(@NonNull Metadata metadata);

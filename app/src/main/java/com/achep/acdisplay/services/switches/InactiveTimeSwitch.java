@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,29 +16,29 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.switches;
+package com.cypher.glance.services.switches;
 
 import android.content.Context;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.InactiveTimeHelper;
-import com.achep.acdisplay.services.Switch;
-import com.achep.base.content.ConfigBase;
+import com.cypher.glance.Config;
+import com.cypher.glance.InactiveTimeHelper;
+import com.cypher.glance.services.Switch;
+import com.cypher.base.content.ConfigBase;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
- * Prevents {@link com.achep.acdisplay.services.activemode.ActiveModeService} from listening to
+ * Prevents {@link com.cypher.glance.services.activemode.ActiveModeService} from listening to
  * sensors on inactive time (if corresponding option is enabled.)
  *
  * @author Artem Chepurnoy
- * @see com.achep.acdisplay.ui.fragments.settings.MoreSettings
+ * @see com.cypher.glance.ui.fragments.settings.MoreSettings
  */
 // TODO: Implement event based inactive time handling.
 public final class InactiveTimeSwitch extends Switch implements

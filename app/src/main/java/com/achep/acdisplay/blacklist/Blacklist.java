@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,14 +16,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.blacklist;
+package com.cypher.glance.blacklist;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.achep.base.content.SharedList;
+import com.cypher.base.content.SharedList;
 
 /**
  * The blacklist (also known as per-app-features.)
@@ -91,9 +91,9 @@ public final class Blacklist extends SharedList<AppConfig, AppConfig.Saver> {
     }
 
     /**
-     * This is called on {@link com.achep.acdisplay.App#onCreate() App create}.
+     * This is called on {@link com.cypher.glance.App#onCreate() App create}.
      *
-     * @see com.achep.base.content.SharedList#init(android.content.Context)
+     * @see com.cypher.base.content.SharedList#init(android.content.Context)
      */
     @Override
     public void init(@NonNull Context context) {
@@ -151,7 +151,7 @@ public final class Blacklist extends SharedList<AppConfig, AppConfig.Saver> {
     }
 
     /**
-     * <b>Creates</b> new instance of {@link com.achep.acdisplay.blacklist.AppConfig} and
+     * <b>Creates</b> new instance of {@link com.cypher.glance.blacklist.AppConfig} and
      * fills it with present data.
      *
      * @param packageName The package name of need application.

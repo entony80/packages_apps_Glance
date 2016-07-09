@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -23,15 +23,15 @@
     <Preference
         android:title="Test shake detector">
         <intent
-            android:targetClass="com.achep.acdisplay.ui.activities.tests.ShakeTestActivity"
-            android:targetPackage="com.achep.acdisplay" />
+            android:targetClass="com.cypher.glance.ui.activities.tests.ShakeTestActivity"
+            android:targetPackage="com.cypher.glance" />
     </Preference>
 
     <Preference
         android:title="Test idle-exit detector">
         <intent
-            android:targetClass="com.achep.acdisplay.ui.activities.tests.IdleExitTestActivity"
-            android:targetPackage="com.achep.acdisplay" />
+            android:targetClass="com.cypher.glance.ui.activities.tests.IdleExitTestActivity"
+            android:targetPackage="com.cypher.glance" />
     </Preference>
 
     <CheckBoxPreference

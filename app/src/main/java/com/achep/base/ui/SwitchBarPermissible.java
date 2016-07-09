@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,19 +16,19 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui;
+package com.cypher.base.ui;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.CompoundButton;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.ui.DialogHelper;
-import com.achep.base.interfaces.ICheckable;
-import com.achep.base.permissions.Permission;
-import com.achep.base.ui.widgets.SwitchBar;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.R;
+import com.cypher.glance.ui.DialogHelper;
+import com.cypher.base.interfaces.ICheckable;
+import com.cypher.base.permissions.Permission;
+import com.cypher.base.ui.widgets.SwitchBar;
+import com.cypher.base.utils.ViewUtils;
 
 /**
  * @author Artem Chepurnoy

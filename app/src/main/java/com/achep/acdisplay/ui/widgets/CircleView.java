@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.widgets;
+package com.cypher.glance.ui.widgets;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -39,26 +39,23 @@ import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.ui.CornerHelper;
-import com.achep.acdisplay.ui.drawables.CornerIconDrawable;
-import com.achep.base.async.WeakHandler;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.FloatProperty;
-import com.achep.base.utils.MathUtils;
-import com.achep.base.utils.RefCacheBase;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.ui.CornerHelper;
+import com.cypher.glance.ui.drawables.CornerIconDrawable;
+import com.cypher.base.async.WeakHandler;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.FloatProperty;
+import com.cypher.base.utils.MathUtils;
+import com.cypher.base.utils.RefCacheBase;
+import com.cypher.base.utils.ResUtils;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 
-import static com.achep.acdisplay.ui.preferences.ColorPickerPreference.getColor;
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.glance.ui.preferences.ColorPickerPreference.getColor;
+import static com.cypher.base.Build.DEBUG;
 
-/**
- * Created by achep on 19.04.14.
- */
 public class CircleView extends View {
 
     private static final String TAG = "CircleView";

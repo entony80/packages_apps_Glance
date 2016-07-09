@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.interfaces;
+package com.cypher.base.interfaces;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -57,7 +57,7 @@ public interface IConfiguration {
 
         /**
          * @return a help text, to be displayed in
-         * {@link com.achep.base.ui.fragments.dialogs.HelpDialog}.
+         * {@link com.cypher.base.ui.fragments.dialogs.HelpDialog}.
          */
         @NonNull
         CharSequence getText(@NonNull Context context);

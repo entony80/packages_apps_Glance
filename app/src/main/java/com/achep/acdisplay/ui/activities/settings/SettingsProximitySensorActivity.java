@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,16 +16,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities.settings;
+package com.cypher.glance.ui.activities.settings;
 
 import android.os.Bundle;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.ui.activities.base.BaseActivity;
+import com.cypher.glance.R;
+import com.cypher.glance.ui.activities.base.BaseActivity;
 
 /**
  * An activity for tweaking the
- * {@link com.achep.acdisplay.services.activemode.sensors.ProximitySensor proximity sensor}.
+ * {@link com.cypher.glance.services.activemode.sensors.ProximitySensor proximity sensor}.
  *
  * @author Artem Chepurnoy
  */

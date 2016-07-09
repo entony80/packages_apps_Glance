@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.activities;
+package com.cypher.base.ui.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -25,8 +25,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.achep.base.interfaces.IActivityBase;
-import com.achep.base.utils.power.PowerSaveDetector;
+import com.cypher.base.interfaces.IActivityBase;
+import com.cypher.base.utils.power.PowerSaveDetector;
 
 import org.solovyev.android.checkout.ActivityCheckout;
 

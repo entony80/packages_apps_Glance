@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.graphics;
+package com.cypher.glance.graphics;
 
 import android.graphics.Bitmap;
 import android.os.SystemClock;
@@ -24,10 +24,10 @@ import android.support.annotation.NonNull;
 import android.support.v4.os.AsyncTaskCompat;
 import android.util.Log;
 
-import com.achep.base.async.AsyncTask;
+import com.cypher.base.async.AsyncTask;
 import com.enrique.stackblur.StackBlurManager;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * The factory for generating the background images.

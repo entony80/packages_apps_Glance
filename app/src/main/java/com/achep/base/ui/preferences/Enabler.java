@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,14 +16,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.preferences;
+package com.cypher.base.ui.preferences;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.widget.CompoundButton;
 
-import com.achep.base.content.ConfigBase;
-import com.achep.base.interfaces.ICheckable;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.interfaces.ICheckable;
 
 /**
  * @author Artem Chepurnoy
@@ -75,7 +75,7 @@ public class Enabler {
 
     /**
      * Starts listening to the config's changes and updates corresponding
-     * {@link com.achep.base.interfaces.ICheckable compound button}.
+     * {@link com.cypher.base.interfaces.ICheckable compound button}.
      * You must call {@link #stop() stop} method later!
      */
     public void start() {

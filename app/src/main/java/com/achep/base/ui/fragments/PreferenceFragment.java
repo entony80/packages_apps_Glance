@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments;
+package com.cypher.base.ui.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -32,22 +32,22 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewStub;
 
-import com.achep.acdisplay.R;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.interfaces.ICheckable;
-import com.achep.base.permissions.Permission;
-import com.achep.base.ui.SwitchBarPermissible;
-import com.achep.base.ui.activities.ActivityBase;
-import com.achep.base.ui.preferences.Enabler;
-import com.achep.base.ui.widgets.SwitchBar;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.R;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.interfaces.ICheckable;
+import com.cypher.base.permissions.Permission;
+import com.cypher.base.ui.SwitchBarPermissible;
+import com.cypher.base.ui.activities.ActivityBase;
+import com.cypher.base.ui.preferences.Enabler;
+import com.cypher.base.ui.widgets.SwitchBar;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.ResUtils;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 public abstract class PreferenceFragment extends PreferenceFragmentBase {
 
@@ -69,9 +69,9 @@ public abstract class PreferenceFragment extends PreferenceFragmentBase {
      * Requests the fragment to setup master switch from
      * the corresponding key.
      *
-     * @param key the key of one of the {@link com.achep.base.content.ConfigBase}'s options
-     * @see com.achep.base.content.ConfigBase
-     * @see com.achep.base.ui.preferences.Enabler
+     * @param key the key of one of the {@link com.cypher.base.content.ConfigBase}'s options
+     * @see com.cypher.base.content.ConfigBase
+     * @see com.cypher.base.ui.preferences.Enabler
      */
     public void requestMasterSwitch(@NonNull String key) {
         requestMasterSwitch(key, null);
@@ -134,7 +134,7 @@ public abstract class PreferenceFragment extends PreferenceFragmentBase {
      * Synchronizes simple checkbox preference with the config.
      *
      * @param key the key of preference & config's parameter.
-     * @see com.achep.acdisplay.Config#getMap()
+     * @see com.cypher.glance.Config#getMap()
      */
     protected void syncPreference(@NonNull String key) {
         if (mTwoStatePreferenceSetter == null)
@@ -147,7 +147,7 @@ public abstract class PreferenceFragment extends PreferenceFragmentBase {
      *
      * @param key    the key of preference & config's parameter.
      * @param setter preference's setter
-     * @see com.achep.acdisplay.Config#getMap()
+     * @see com.cypher.glance.Config#getMap()
      * @see ListPreferenceSetter
      * @see TwoStatePreferenceSetter
      */

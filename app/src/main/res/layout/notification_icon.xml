@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -17,13 +17,13 @@
   ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
   ~ MA  02110-1301, USA.
   -->
-<com.achep.acdisplay.ui.widgets.notification.NotificationIconWidget xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cypher.glance.ui.widgets.notification.NotificationIconWidget xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="56dp"
     android:layout_height="56dp"
     android:background="@drawable/list_oval_dark"
     android:padding="6dp">
 
-    <com.achep.acdisplay.ui.widgets.notification.NotificationIcon
+    <com.cypher.glance.ui.widgets.notification.NotificationIcon
         android:id="@+id/icon"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +32,7 @@
         android:maxWidth="@dimen/notification_icon_size"
         android:scaleType="centerInside" />
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,4 +47,4 @@
         android:textColor="#fff"
         android:textStyle="bold" />
 
-</com.achep.acdisplay.ui.widgets.notification.NotificationIconWidget>
+</com.cypher.glance.ui.widgets.notification.NotificationIconWidget>

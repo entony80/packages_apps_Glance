@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -20,7 +20,7 @@
 <!--
     Simple text-only dialog's content view.
     -->
-<com.achep.base.ui.widgets.TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cypher.base.ui.widgets.TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/message"
     style="?dialogMessageStyle"
     android:layout_width="match_parent"

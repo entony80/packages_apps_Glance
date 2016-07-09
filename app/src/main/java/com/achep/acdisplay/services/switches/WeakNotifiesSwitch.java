@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,22 +16,22 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.switches;
+package com.cypher.glance.services.switches;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.notifications.OpenNotification;
-import com.achep.acdisplay.services.Switch;
-import com.achep.base.content.ConfigBase;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.notifications.OpenNotification;
+import com.cypher.glance.services.Switch;
+import com.cypher.base.content.ConfigBase;
 
 /**
  * @author Artem Chepurnoy
- * @see com.achep.acdisplay.ui.fragments.settings.ActiveModeSettings
- * @see com.achep.acdisplay.ui.fragments.settings.KeyguardSettings
+ * @see com.cypher.glance.ui.fragments.settings.ActiveModeSettings
+ * @see com.cypher.glance.ui.fragments.settings.KeyguardSettings
  */
 public final class WeakNotifiesSwitch extends Switch.Optional implements
         NotificationPresenter.OnNotificationListChangedListener {

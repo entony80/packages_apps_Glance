@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.plugins.xposed;
+package com.cypher.glance.plugins.xposed;
 
 import android.util.Log;
 
-import com.achep.base.Device;
+import com.cypher.base.Device;
 
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XC_MethodHook;
@@ -63,7 +63,7 @@ public class ImmersiveModeDontPanic implements IXposedHookZygoteInit {
                 @Override
                 protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                     String pkg = (String) param.args[0];
-                    if (pkg != null && pkg.startsWith("com.achep.acdisplay")) {
+                    if (pkg != null && pkg.startsWith("com.cypher.glance")) {
                         param.setResult(null);
 
                         Log.i(TAG, "An unconfirmation of AcDisplay\'s immersive mode passed to hell.");

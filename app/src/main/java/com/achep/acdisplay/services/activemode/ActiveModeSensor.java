@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.activemode;
+package com.cypher.glance.services.activemode;
 
 import android.content.Context;
 import android.hardware.SensorManager;
@@ -25,13 +25,13 @@ import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.achep.acdisplay.services.activemode.sensors.ProximitySensor;
-import com.achep.base.async.WeakHandler;
+import com.cypher.glance.services.activemode.sensors.ProximitySensor;
+import com.cypher.base.async.WeakHandler;
 
 import java.util.ArrayList;
 
 /**
- * Provides a callback when {@link com.achep.acdisplay.ui.activities.AcDisplayActivity}
+ * Provides a callback when {@link com.cypher.glance.ui.activities.AcDisplayActivity}
  * should be started and stopped.
  *
  * @author Artem Chepurnoy

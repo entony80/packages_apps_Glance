@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,16 +16,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services;
+package com.cypher.glance.services;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.app.Notification;
 import android.os.Parcelable;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.notifications.OpenNotification;
-import com.achep.base.Device;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.notifications.OpenNotification;
+import com.cypher.base.Device;
 
 /**
  * Created by Artem Chepurnoy on 06.09.2014.

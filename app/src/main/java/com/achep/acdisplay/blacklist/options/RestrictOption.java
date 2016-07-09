@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,15 +16,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.blacklist.options;
+package com.cypher.glance.blacklist.options;
 
 import android.content.Context;
 import android.widget.CompoundButton;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.blacklist.AppConfig;
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.R;
+import com.cypher.glance.blacklist.AppConfig;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.base.utils.ResUtils;
 
 /**
  * Created by Artem on 28.02.14.

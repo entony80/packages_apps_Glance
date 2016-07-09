@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay;
+package com.cypher.glance;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,12 +25,12 @@ import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.plugins.powertoggles.ToggleReceiver;
-import com.achep.acdisplay.services.KeyguardService;
-import com.achep.acdisplay.services.SensorsDumpService;
-import com.achep.acdisplay.services.activemode.ActiveModeService;
-import com.achep.base.content.ConfigBase;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.plugins.powertoggles.ToggleReceiver;
+import com.cypher.glance.services.KeyguardService;
+import com.cypher.glance.services.SensorsDumpService;
+import com.cypher.glance.services.activemode.ActiveModeService;
+import com.cypher.base.content.ConfigBase;
 
 import java.util.Map;
 
@@ -573,7 +573,7 @@ public final class Config extends ConfigBase {
 
     /**
      * @return an action of the left top corner of the screen.
-     * @see com.achep.acdisplay.ui.CornerHelper
+     * @see com.cypher.glance.ui.CornerHelper
      */
     public int getCornerActionLeftTop() {
         return mCornerActionLeftTop;
@@ -581,7 +581,7 @@ public final class Config extends ConfigBase {
 
     /**
      * @return an action of the right top corner of the screen.
-     * @see com.achep.acdisplay.ui.CornerHelper
+     * @see com.cypher.glance.ui.CornerHelper
      */
     public int getCornerActionRightTop() {
         return mCornerActionRightTop;
@@ -589,7 +589,7 @@ public final class Config extends ConfigBase {
 
     /**
      * @return an action of the left bottom corner of the screen.
-     * @see com.achep.acdisplay.ui.CornerHelper
+     * @see com.cypher.glance.ui.CornerHelper
      */
     public int getCornerActionLeftBottom() {
         return mCornerActionLeftBottom;
@@ -597,7 +597,7 @@ public final class Config extends ConfigBase {
 
     /**
      * @return an action of the right bottom corner of the screen.
-     * @see com.achep.acdisplay.ui.CornerHelper
+     * @see com.cypher.glance.ui.CornerHelper
      */
     public int getCornerActionRightBottom() {
         return mCornerActionRightBottom;
@@ -765,7 +765,7 @@ public final class Config extends ConfigBase {
         }
 
         /**
-         * @see #setLaunchCount(android.content.Context, int, com.achep.base.content.ConfigBase.OnConfigChangedListener)
+         * @see #setLaunchCount(android.content.Context, int, com.cypher.base.content.ConfigBase.OnConfigChangedListener)
          * @see #getLaunchCount()
          */
         public void incrementLaunchCount(@NonNull Context context,
@@ -774,7 +774,7 @@ public final class Config extends ConfigBase {
         }
 
         /**
-         * @see #incrementLaunchCount(android.content.Context, com.achep.base.content.ConfigBase.OnConfigChangedListener)
+         * @see #incrementLaunchCount(android.content.Context, com.cypher.base.content.ConfigBase.OnConfigChangedListener)
          * @see #getLaunchCount()
          */
         public void setLaunchCount(@NonNull Context context, int launchCount,
@@ -783,7 +783,7 @@ public final class Config extends ConfigBase {
         }
 
         /**
-         * As set by {@link com.achep.acdisplay.ui.activities.MainActivity}, it returns version
+         * As set by {@link com.cypher.glance.ui.activities.MainActivity}, it returns version
          * code of previously installed AcDisplay, {@code 0} if first install.
          *
          * @return version code of previously installed AcDisplay, {@code 0} on first installation.
@@ -794,16 +794,16 @@ public final class Config extends ConfigBase {
         }
 
         /**
-         * @return the number of {@link com.achep.acdisplay.ui.activities.AcDisplayActivity}'s creations.
-         * @see #incrementLaunchCount(android.content.Context, com.achep.base.content.ConfigBase.OnConfigChangedListener)
-         * @see #setLaunchCount(android.content.Context, int, com.achep.base.content.ConfigBase.OnConfigChangedListener)
+         * @return the number of {@link com.cypher.glance.ui.activities.AcDisplayActivity}'s creations.
+         * @see #incrementLaunchCount(android.content.Context, com.cypher.base.content.ConfigBase.OnConfigChangedListener)
+         * @see #setLaunchCount(android.content.Context, int, com.cypher.base.content.ConfigBase.OnConfigChangedListener)
          */
         public int getLaunchCount() {
             return mTrigLaunchCount;
         }
 
         /**
-         * @return {@code true} if {@link com.achep.base.ui.fragments.dialogs.HelpDialog} been read,
+         * @return {@code true} if {@link com.cypher.base.ui.fragments.dialogs.HelpDialog} been read,
          * {@code false} otherwise
          * @see #setHelpRead(android.content.Context, boolean, Config.OnConfigChangedListener)
          */
@@ -814,7 +814,7 @@ public final class Config extends ConfigBase {
         /**
          * @return {@code true} if the app is fully translated to currently used locale,
          * {@code false} otherwise.
-         * @see #setDonationAsked(android.content.Context, boolean, com.achep.base.content.ConfigBase.OnConfigChangedListener)
+         * @see #setDonationAsked(android.content.Context, boolean, com.cypher.base.content.ConfigBase.OnConfigChangedListener)
          */
         public boolean isTranslated() {
             return mTrigTranslated;

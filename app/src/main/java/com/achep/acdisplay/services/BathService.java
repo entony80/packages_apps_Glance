@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services;
+package com.cypher.glance.services;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -31,20 +31,20 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.notifications.NotificationHelper;
-import com.achep.acdisplay.ui.activities.MainActivity;
-import com.achep.base.AppHeap;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.services.BaseService;
+import com.cypher.glance.App;
+import com.cypher.glance.R;
+import com.cypher.glance.notifications.NotificationHelper;
+import com.cypher.glance.ui.activities.MainActivity;
+import com.cypher.base.AppHeap;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.services.BaseService;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Created by achep on 26.05.14.
@@ -238,7 +238,7 @@ public class BathService extends BaseService {
 
     /**
      * Builds fresh notification with all {@link ChildService children services}'s
-     * {@link com.achep.acdisplay.services.BathService.ChildService#getLabel() labels} in.
+     * {@link com.cypher.glance.services.BathService.ChildService#getLabel() labels} in.
      */
     @NonNull
     private Notification buildNotification() {
@@ -291,7 +291,7 @@ public class BathService extends BaseService {
     //-- CHILD SERVICE --------------------------------------------------------
 
     /**
-     * Base for fake foreground service hosted in {@link com.achep.acdisplay.services.BathService}.
+     * Base for fake foreground service hosted in {@link com.cypher.glance.services.BathService}.
      * Call {@link BathService#startService(android.content.Context, Class)} to start this service,
      * and {@link BathService#stopService(android.content.Context, Class)} to stop.
      *

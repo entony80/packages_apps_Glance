@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services;
+package com.cypher.glance.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -30,21 +30,21 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.Presenter;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.services.switches.AlarmSwitch;
-import com.achep.acdisplay.services.switches.InactiveTimeSwitch;
-import com.achep.acdisplay.services.switches.NoNotifiesSwitch;
-import com.achep.acdisplay.services.switches.PhoneCallSwitch;
-import com.achep.acdisplay.utils.tasks.RunningTasks;
-import com.achep.base.AppHeap;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.PackageUtils;
-import com.achep.base.utils.power.PowerUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.Presenter;
+import com.cypher.glance.R;
+import com.cypher.glance.services.switches.AlarmSwitch;
+import com.cypher.glance.services.switches.InactiveTimeSwitch;
+import com.cypher.glance.services.switches.NoNotifiesSwitch;
+import com.cypher.glance.services.switches.PhoneCallSwitch;
+import com.cypher.glance.utils.tasks.RunningTasks;
+import com.cypher.base.AppHeap;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.PackageUtils;
+import com.cypher.base.utils.power.PowerUtils;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Created by Artem on 16.02.14.

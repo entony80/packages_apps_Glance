@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities.settings;
+package com.cypher.glance.ui.activities.settings;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -49,12 +49,12 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.blacklist.AppConfig;
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.acdisplay.ui.fragments.BlacklistAppFragment;
-import com.achep.base.utils.MathUtils;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.R;
+import com.cypher.glance.blacklist.AppConfig;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.glance.ui.fragments.BlacklistAppFragment;
+import com.cypher.base.utils.MathUtils;
+import com.cypher.base.utils.ResUtils;
 
 import java.lang.reflect.Method;
 import java.util.Collections;
@@ -73,19 +73,19 @@ public class BlacklistActivity extends PreferenceActivity {
 
     // meta data
     private static final String META_DATA_KEY_HEADER_ID =
-            "com.achep.acdisplay.blacklist.TOP_LEVEL_HEADER_ID";
+            "com.cypher.glance.blacklist.TOP_LEVEL_HEADER_ID";
     private static final String META_DATA_KEY_FRAGMENT_CLASS =
-            "com.achep.acdisplay.blacklist.FRAGMENT_CLASS";
+            "com.cypher.glance.blacklist.FRAGMENT_CLASS";
     private static final String META_DATA_KEY_PARENT_TITLE =
-            "com.achep.acdisplay.blacklist.PARENT_FRAGMENT_TITLE";
+            "com.cypher.glance.blacklist.PARENT_FRAGMENT_TITLE";
     private static final String META_DATA_KEY_PARENT_FRAGMENT_CLASS =
-            "com.achep.acdisplay.blacklist.PARENT_FRAGMENT_CLASS";
+            "com.cypher.glance.blacklist.PARENT_FRAGMENT_CLASS";
 
     // save state
     private static final String SAVE_KEY_CURRENT_HEADER =
-            "com.achep.acdisplay.blacklist.CURRENT_HEADER";
+            "com.cypher.glance.blacklist.CURRENT_HEADER";
     private static final String SAVE_KEY_PARENT_HEADER =
-            "com.achep.acdisplay.blacklist.PARENT_HEADER";
+            "com.cypher.glance.blacklist.PARENT_HEADER";
 
     // preferences
     private static final String PREF_KEY_SHOW_SYSTEM_APPS = "show_system_apps";

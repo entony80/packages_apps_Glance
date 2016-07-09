@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -36,7 +36,7 @@
         android:scaleType="centerInside"
         tools:ignore="ContentDescription" />
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="36dp"
@@ -47,7 +47,7 @@
         android:singleLine="true"
         android:textAppearance="?android:textAppearanceMedium" />
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/summary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

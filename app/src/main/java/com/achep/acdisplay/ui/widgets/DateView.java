@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.widgets;
+package com.cypher.glance.ui.widgets;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -27,8 +27,8 @@ import android.text.format.DateFormat;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.Device;
+import com.cypher.glance.R;
+import com.cypher.base.Device;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

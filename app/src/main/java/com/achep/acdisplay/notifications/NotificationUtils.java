@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.annotation.SuppressLint;
 import android.app.KeyguardManager;
@@ -32,12 +32,12 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.services.MediaService;
-import com.achep.acdisplay.utils.PendingIntentUtils;
-import com.achep.base.Device;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.ResUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.services.MediaService;
+import com.cypher.glance.utils.PendingIntentUtils;
+import com.cypher.base.Device;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.ResUtils;
 
 /**
  * Created by Artem on 30.12.13.
@@ -169,7 +169,7 @@ public class NotificationUtils {
     }
 
     /**
-     * @see com.achep.acdisplay.notifications.OpenNotification#hasIdenticalIds(OpenNotification)
+     * @see com.cypher.glance.notifications.OpenNotification#hasIdenticalIds(OpenNotification)
      */
     public static boolean hasIdenticalIds(@Nullable OpenNotification n,
                                           @Nullable OpenNotification n2) {

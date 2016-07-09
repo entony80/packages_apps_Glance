@@ -1,4 +1,4 @@
-package com.achep.base.content;
+package com.cypher.base.content;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.achep.base.Device;
-import com.achep.base.interfaces.IOnLowMemory;
+import com.cypher.base.Device;
+import com.cypher.base.interfaces.IOnLowMemory;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

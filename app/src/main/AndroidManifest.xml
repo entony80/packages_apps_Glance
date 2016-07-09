@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -20,7 +20,7 @@
   --><!-- Welcome to Hell. Take care of your mind. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.achep.acdisplay"
+    package="com.cypher.glance"
     android:versionCode="77"
     android:versionName="4.0">
 
@@ -96,7 +96,7 @@
             android:theme="@style/MaterialTheme.Dashboard" />
 
         <activity
-            android:name="com.achep.base.ui.activities.SubSettings"
+            android:name="com.cypher.base.ui.activities.SubSettings"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:parentActivityName=".ui.activities.settings.Settings2"
             android:taskAffinity=".settings" />
@@ -150,7 +150,7 @@
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
-                <action android:name="com.achep.acdisplay.BIND_MEDIA_CONTROL_SERVICE" />
+                <action android:name="com.cypher.glance.BIND_MEDIA_CONTROL_SERVICE" />
             </intent-filter>
         </service>
 
@@ -226,7 +226,7 @@
         <!-- For sending logs as attachments -->
         <provider
             android:name=".providers.LogAttachmentProvider"
-            android:authorities="com.achep.acdisplay.logs"
+            android:authorities="com.cypher.glance.logs"
             android:exported="true"
             tools:ignore="ExportedContentProvider" />
 
@@ -239,13 +239,13 @@
             android:exported="true"
             tools:ignore="ExportedReceiver">
             <intent-filter>
-                <action android:name="com.achep.acdisplay.ENABLE" />
-                <action android:name="com.achep.acdisplay.DISABLE" />
-                <action android:name="com.achep.acdisplay.TOGGLE" />
+                <action android:name="com.cypher.glance.ENABLE" />
+                <action android:name="com.cypher.glance.DISABLE" />
+                <action android:name="com.cypher.glance.TOGGLE" />
                 <!-- Active mode -->
-                <action android:name="com.achep.acdisplay.ACTIVE_MODE_ENABLE" />
-                <action android:name="com.achep.acdisplay.ACTIVE_MODE_DISABLE" />
-                <action android:name="com.achep.acdisplay.ACTIVE_MODE_TOGGLE" />
+                <action android:name="com.cypher.glance.ACTIVE_MODE_ENABLE" />
+                <action android:name="com.cypher.glance.ACTIVE_MODE_DISABLE" />
+                <action android:name="com.cypher.glance.ACTIVE_MODE_TOGGLE" />
             </intent-filter>
         </receiver>
 

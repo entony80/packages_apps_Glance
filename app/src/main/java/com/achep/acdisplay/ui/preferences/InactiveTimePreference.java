@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.preferences;
+package com.cypher.glance.ui.preferences;
 
 import android.app.TimePickerDialog;
 import android.content.Context;
@@ -28,10 +28,10 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.base.ui.preferences.MaterialDialogPreference;
-import com.achep.base.utils.DateUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.base.ui.preferences.MaterialDialogPreference;
+import com.cypher.base.utils.DateUtils;
 import com.afollestad.materialdialogs.MaterialDialog;
 
 /**

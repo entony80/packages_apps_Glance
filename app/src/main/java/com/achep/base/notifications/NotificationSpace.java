@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,19 +16,19 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.notifications;
+package com.cypher.base.notifications;
 
 import android.annotation.SuppressLint;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 
-import com.achep.base.Device;
+import com.cypher.base.Device;
 
 import java.util.ArrayList;
 
 import timber.log.Timber;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * A helper class to help to not mess up with ids of notifications.

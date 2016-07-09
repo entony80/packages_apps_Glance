@@ -1,4 +1,4 @@
-package com.achep.base.services;
+package com.cypher.base.services;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -6,7 +6,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
-import com.achep.base.Device;
+import com.cypher.base.Device;
 
 import timber.log.Timber;
 

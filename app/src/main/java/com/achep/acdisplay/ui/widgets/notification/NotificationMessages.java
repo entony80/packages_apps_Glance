@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.widgets.notification;
+package com.cypher.glance.ui.widgets.notification;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -31,8 +31,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.tests.Check;
+import com.cypher.glance.R;
+import com.cypher.base.tests.Check;
 
 import java.util.Arrays;
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,17 +16,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities;
+package com.cypher.glance.ui.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
-import com.achep.acdisplay.Presenter;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.Timeout;
-import com.achep.acdisplay.ui.fragments.PocketFragment;
+import com.cypher.glance.Presenter;
+import com.cypher.glance.R;
+import com.cypher.glance.Timeout;
+import com.cypher.glance.ui.fragments.PocketFragment;
 
 /**
  * Created by Artem on 25.01.14.
@@ -107,7 +107,7 @@ public class AcDisplayActivity extends KeyguardActivity implements
     }
 
     /**
-     * Asks HeadsUp (https://play.google.com/store/apps/details?id=com.achep.headsup) to
+     * Asks HeadsUp (https://play.google.com/store/apps/details?id=com.cypher.headsup) to
      * pause or continue showing its floating notifications.
      *
      * @param hideHeadsUp {@code true} to disallow showing floating notifications,
@@ -115,13 +115,13 @@ public class AcDisplayActivity extends KeyguardActivity implements
      */
     private void hideHeadsUpApp(boolean hideHeadsUp) {
         Intent intent = new Intent(hideHeadsUp
-                ? "com.achep.headsup.ACTION_DISALLOW_HEADSUP"
-                : "com.achep.headsup.ACTION_ALLOW_HEADSUP");
+                ? "com.cypher.headsup.ACTION_DISALLOW_HEADSUP"
+                : "com.cypher.headsup.ACTION_ALLOW_HEADSUP");
         sendBroadcast(intent);
     }
 
     /**
-     * Initializes non-UI fragments such as {@link com.achep.acdisplay.ui.fragments.PocketFragment}.
+     * Initializes non-UI fragments such as {@link com.cypher.glance.ui.fragments.PocketFragment}.
      */
     private void initInternalFragments() {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

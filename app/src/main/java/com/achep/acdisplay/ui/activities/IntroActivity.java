@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,15 +16,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities;
+package com.cypher.glance.ui.activities;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 
-import com.achep.acdisplay.R;
-import com.achep.base.Device;
+import com.cypher.glance.R;
+import com.cypher.base.Device;
 import com.github.paolorotolo.appintro.AppIntro2;
 import com.github.paolorotolo.appintro.AppIntroFragment;
 

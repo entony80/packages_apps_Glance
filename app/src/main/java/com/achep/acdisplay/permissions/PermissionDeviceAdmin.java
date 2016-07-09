@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.permissions;
+package com.cypher.glance.permissions;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
@@ -26,9 +26,9 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.receiver.AdminReceiver;
-import com.achep.base.permissions.Permission;
+import com.cypher.glance.R;
+import com.cypher.glance.receiver.AdminReceiver;
+import com.cypher.base.permissions.Permission;
 
 /**
  * The Device admin permission.

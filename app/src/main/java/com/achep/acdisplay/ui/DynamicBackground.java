@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui;
+package com.cypher.glance.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -31,11 +31,11 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.ui.fragments.AcDisplayFragment;
-import com.achep.base.ui.animations.AnimatorListenerAdapter;
-import com.achep.base.utils.Operator;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.ui.fragments.AcDisplayFragment;
+import com.cypher.base.ui.animations.AnimatorListenerAdapter;
+import com.cypher.base.utils.Operator;
 
 /**
  * Created by Artem Chepurnoy on 22.11.2014.

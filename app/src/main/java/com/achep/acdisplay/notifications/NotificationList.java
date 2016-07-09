@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,12 +16,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.achep.base.interfaces.IOnLowMemory;
+import com.cypher.base.interfaces.IOnLowMemory;
 
 import java.util.ArrayList;
 
@@ -90,7 +90,7 @@ final class NotificationList extends ArrayList<OpenNotification> implements IOnL
     }
 
     /**
-     * Creates new {@link com.achep.acdisplay.notifications.NotificationList} with initial capacity
+     * Creates new {@link com.cypher.glance.notifications.NotificationList} with initial capacity
      * equals to {@code 10}.
      *
      * @param listener Listener to which all events will be send.

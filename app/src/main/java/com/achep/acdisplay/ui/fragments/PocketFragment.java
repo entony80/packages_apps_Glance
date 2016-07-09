@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.fragments;
+package com.cypher.glance.ui.fragments;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.Message;
 
-import com.achep.base.ui.fragments.leakcanary.LeakWatchFragment;
+import com.cypher.base.ui.fragments.leakcanary.LeakWatchFragment;
 
 /**
  * Non-UI fragment that listens to the proximity sensor to let us know

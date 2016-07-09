@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -31,13 +31,13 @@
         android:key="privacy_mode"
         android:title="@string/settings_privacy_mode_title" />
 
-    <com.achep.acdisplay.ui.preferences.InactiveTimePreference
+    <com.cypher.glance.ui.preferences.InactiveTimePreference
         android:dialogIcon="@drawable/ic_weather_night_white_24dp"
         android:dialogTitle="@string/settings_inactive_hours_title"
         android:key="inactive_hours"
         android:title="@string/settings_inactive_hours_title" />
 
-    <com.achep.acdisplay.ui.preferences.TimeoutPreference
+    <com.cypher.glance.ui.preferences.TimeoutPreference
         android:dialogIcon="@drawable/ic_camera_timer_white_24dp"
         android:dialogTitle="@string/settings_timeout_title"
         android:key="timeout"

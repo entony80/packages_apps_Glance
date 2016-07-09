@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.fragments;
+package com.cypher.glance.ui.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -32,13 +32,13 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.acdisplay.blacklist.options.HideOption;
-import com.achep.acdisplay.blacklist.options.NonClearableOption;
-import com.achep.acdisplay.blacklist.options.Option;
-import com.achep.acdisplay.blacklist.options.RestrictOption;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.R;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.glance.blacklist.options.HideOption;
+import com.cypher.glance.blacklist.options.NonClearableOption;
+import com.cypher.glance.blacklist.options.Option;
+import com.cypher.glance.blacklist.options.RestrictOption;
+import com.cypher.base.utils.ViewUtils;
 
 /**
  * Created by Artem on 09.02.14.

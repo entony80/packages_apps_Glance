@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,12 +16,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.fragments.settings;
+package com.cypher.glance.ui.fragments.settings;
 
 import android.support.annotation.NonNull;
 
-import com.achep.acdisplay.Config;
-import com.achep.base.ui.fragments.PreferenceFragment;
+import com.cypher.glance.Config;
+import com.cypher.base.ui.fragments.PreferenceFragment;
 
 abstract class BaseSettings extends PreferenceFragment {
 

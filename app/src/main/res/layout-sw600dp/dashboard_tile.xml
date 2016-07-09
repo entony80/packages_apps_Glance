@@ -17,7 +17,7 @@
 <!--
      Modified by AChep@xda <artemchep@gmail.com> for AcDisplay
   -->
-<com.achep.base.ui.widgets.DashboardTileView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cypher.base.ui.widgets.DashboardTileView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:scaleType="centerInside"
             tools:ignore="ContentDescription" />
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:singleLine="true"
             android:textAppearance="?android:textAppearanceMedium" />
 
-        <com.achep.base.ui.widgets.TextView
+        <com.cypher.base.ui.widgets.TextView
             android:id="@+id/status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,4 +67,4 @@
         android:layout_height="1dp"
         android:background="?android:attr/dividerVertical" />
 
-</com.achep.base.ui.widgets.DashboardTileView>
+</com.cypher.base.ui.widgets.DashboardTileView>

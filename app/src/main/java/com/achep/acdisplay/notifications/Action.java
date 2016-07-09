@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -28,7 +28,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.RemoteInput;
 import android.util.Log;
 
-import com.achep.base.Device;
+import com.cypher.base.Device;
 
 import java.lang.ref.SoftReference;
 import java.lang.reflect.Field;
@@ -73,7 +73,7 @@ public class Action {
      * instance.
      *
      * @param notification the notification to create from
-     * @return array of {@link com.achep.acdisplay.notifications.Action actions} or {@code null}
+     * @return array of {@link com.cypher.glance.notifications.Action actions} or {@code null}
      */
     @Nullable
     static Action[] makeFor(@NonNull Notification notification) {
@@ -115,7 +115,7 @@ public class Action {
     }
 
     /**
-     * Base definition of {@link com.achep.acdisplay.notifications.Action} creator.
+     * Base definition of {@link com.cypher.glance.notifications.Action} creator.
      *
      * @author Artem Chepurnoy
      */
@@ -126,7 +126,7 @@ public class Action {
          * instance.
          *
          * @param notification notification to create from
-         * @return array of {@link com.achep.acdisplay.notifications.Action actions} or {@code null}
+         * @return array of {@link com.cypher.glance.notifications.Action actions} or {@code null}
          */
         @Nullable
         public abstract Action[] makeFor(@NonNull Notification notification);

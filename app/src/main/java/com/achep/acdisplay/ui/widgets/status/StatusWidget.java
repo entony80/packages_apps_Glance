@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,22 +16,19 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.widgets.status;
+package com.cypher.glance.ui.widgets.status;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.ViewUtils;
 
-/**
- * Created by achep on 17.06.14.
- */
 public class StatusWidget extends LinearLayout implements
         ConfigBase.OnConfigChangedListener,
         BatteryMeterView.OnBatteryChangedListener {

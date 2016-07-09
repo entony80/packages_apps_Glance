@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities;
+package com.cypher.glance.ui.activities;
 
 import android.app.KeyguardManager;
 import android.app.admin.DevicePolicyManager;
@@ -34,19 +34,19 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.Timeout;
-import com.achep.acdisplay.services.KeyguardService;
-import com.achep.acdisplay.ui.activities.base.BaseActivity;
-import com.achep.base.Device;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.KeyguardUtils;
-import com.achep.base.utils.ToastUtils;
-import com.achep.base.utils.logs.TracingLog;
-import com.achep.base.utils.power.PowerUtils;
+import com.cypher.glance.App;
+import com.cypher.glance.R;
+import com.cypher.glance.Timeout;
+import com.cypher.glance.services.KeyguardService;
+import com.cypher.glance.ui.activities.base.BaseActivity;
+import com.cypher.base.Device;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.KeyguardUtils;
+import com.cypher.base.utils.ToastUtils;
+import com.cypher.base.utils.logs.TracingLog;
+import com.cypher.base.utils.power.PowerUtils;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Activity that contains some methods to emulate system keyguard.
@@ -395,12 +395,12 @@ public abstract class KeyguardActivity extends BaseActivity implements
     }
 
     /**
-     * Notifies Xposed {@link com.achep.acdisplay.plugins.xposed.OverrideHomeButton module}
+     * Notifies Xposed {@link com.cypher.glance.plugins.xposed.OverrideHomeButton module}
      * to start ignoring home button press. Please, notice that it will ignore home button
      * click everywhere until you call {@code overrideHomePress(false)}
      *
      * @param override {@code true} to start ignoring, {@code false} to stop.
-     * @see com.achep.acdisplay.plugins.xposed.OverrideHomeButton
+     * @see com.cypher.glance.plugins.xposed.OverrideHomeButton
      * @see #sendBroadcast(android.content.Intent)
      */
     private void overrideHomePress(boolean override) {

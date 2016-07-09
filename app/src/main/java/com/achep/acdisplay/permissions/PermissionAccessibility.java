@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.permissions;
+package com.cypher.glance.permissions;
 
 import android.content.ComponentName;
 import android.content.ContentResolver;
@@ -28,15 +28,15 @@ import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 import android.util.Log;
 
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.services.AccessibilityService;
-import com.achep.base.permissions.Permission;
+import com.cypher.glance.R;
+import com.cypher.glance.services.AccessibilityService;
+import com.cypher.base.permissions.Permission;
 
 /**
  * The Accessibility notification permission.
  *
  * @author Artem Chepurnoy
- * @see com.achep.acdisplay.services.AccessibilityService
+ * @see com.cypher.glance.services.AccessibilityService
  */
 public final class PermissionAccessibility extends Permission {
 

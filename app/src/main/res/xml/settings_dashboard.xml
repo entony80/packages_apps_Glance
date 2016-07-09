@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -26,14 +26,14 @@
 
         <!-- Keyguard -->
         <dashboard-tile
-            app:dashboard_fragment="com.achep.acdisplay.ui.fragments.settings.KeyguardSettings"
+            app:dashboard_fragment="com.cypher.glance.ui.fragments.settings.KeyguardSettings"
             app:dashboard_icon="@drawable/ic_settings_keyguard_white"
             app:dashboard_id="@+id/keyguard_settings"
             app:dashboard_title="@string/settings_keyguard_title" />
 
         <!-- Active mode -->
         <dashboard-tile
-            app:dashboard_fragment="com.achep.acdisplay.ui.fragments.settings.ActiveModeSettings"
+            app:dashboard_fragment="com.cypher.glance.ui.fragments.settings.ActiveModeSettings"
             app:dashboard_icon="@drawable/ic_settings_active_mode_white"
             app:dashboard_id="@+id/active_settings"
             app:dashboard_title="@string/settings_active_title" />
@@ -46,21 +46,21 @@
 
         <!-- Notifications -->
         <dashboard-tile
-            app:dashboard_fragment="com.achep.acdisplay.ui.fragments.settings.NotificationSettings"
+            app:dashboard_fragment="com.cypher.glance.ui.fragments.settings.NotificationSettings"
             app:dashboard_icon="@drawable/ic_settings_notifications_white"
             app:dashboard_id="@+id/notification_settings"
             app:dashboard_title="@string/settings_notification_title" />
 
         <!-- Interface -->
         <dashboard-tile
-            app:dashboard_fragment="com.achep.acdisplay.ui.fragments.settings.InterfaceSettings"
+            app:dashboard_fragment="com.cypher.glance.ui.fragments.settings.InterfaceSettings"
             app:dashboard_icon="@drawable/ic_settings_gui_white"
             app:dashboard_id="@+id/interface_settings"
             app:dashboard_title="@string/settings_interface_title" />
 
         <!-- Development -->
         <dashboard-tile
-            app:dashboard_fragment="com.achep.acdisplay.ui.fragments.settings.DevSettings"
+            app:dashboard_fragment="com.cypher.glance.ui.fragments.settings.DevSettings"
             app:dashboard_icon="@drawable/ic_settings_development_white"
             app:dashboard_id="@+id/dev_settings"
             app:dashboard_title="@string/settings_dev_title" />
@@ -71,13 +71,13 @@
             app:dashboard_id="@+id/app_settings"
             app:dashboard_title="@string/settings_app_settings_title">
             <intent
-                android:targetClass="com.achep.acdisplay.ui.activities.settings.BlacklistActivity"
-                android:targetPackage="com.achep.acdisplay" />
+                android:targetClass="com.cypher.glance.ui.activities.settings.BlacklistActivity"
+                android:targetPackage="com.cypher.glance" />
         </dashboard-tile>
 
         <!-- More -->
         <dashboard-tile
-            app:dashboard_fragment="com.achep.acdisplay.ui.fragments.settings.MoreSettings"
+            app:dashboard_fragment="com.cypher.glance.ui.fragments.settings.MoreSettings"
             app:dashboard_icon="@drawable/ic_settings_more_white"
             app:dashboard_id="@+id/more_settings"
             app:dashboard_title="@string/settings_more_title" />

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.activemode;
+package com.cypher.glance.services.activemode;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -30,35 +30,35 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.Atomic;
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.Presenter;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.notifications.NotificationPresenter;
-import com.achep.acdisplay.notifications.OpenNotification;
-import com.achep.acdisplay.services.BathService;
-import com.achep.acdisplay.services.Switch;
-import com.achep.acdisplay.services.SwitchService;
-import com.achep.acdisplay.services.activemode.sensors.AccelerometerSensor;
-import com.achep.acdisplay.services.activemode.sensors.GyroscopeSensor;
-import com.achep.acdisplay.services.activemode.sensors.ProximitySensor;
-import com.achep.acdisplay.services.switches.BatteryOutSwitch;
-import com.achep.acdisplay.services.switches.InactiveTimeSwitch;
-import com.achep.acdisplay.services.switches.NoNotifiesSwitch;
-import com.achep.acdisplay.services.switches.ScreenOffSwitch;
-import com.achep.base.AppHeap;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.power.PowerUtils;
+import com.cypher.glance.App;
+import com.cypher.glance.Atomic;
+import com.cypher.glance.Config;
+import com.cypher.glance.Presenter;
+import com.cypher.glance.R;
+import com.cypher.glance.notifications.NotificationPresenter;
+import com.cypher.glance.notifications.OpenNotification;
+import com.cypher.glance.services.BathService;
+import com.cypher.glance.services.Switch;
+import com.cypher.glance.services.SwitchService;
+import com.cypher.glance.services.activemode.sensors.AccelerometerSensor;
+import com.cypher.glance.services.activemode.sensors.GyroscopeSensor;
+import com.cypher.glance.services.activemode.sensors.ProximitySensor;
+import com.cypher.glance.services.switches.BatteryOutSwitch;
+import com.cypher.glance.services.switches.InactiveTimeSwitch;
+import com.cypher.glance.services.switches.NoNotifiesSwitch;
+import com.cypher.glance.services.switches.ScreenOffSwitch;
+import com.cypher.base.AppHeap;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.power.PowerUtils;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Service that turns on AcDisplay exactly when it's needed.
  *
  * @author Artem Chepurnoy
- * @see com.achep.acdisplay.services.activemode.ActiveModeSensor
+ * @see com.cypher.glance.services.activemode.ActiveModeSensor
  */
 public class ActiveModeService extends SwitchService implements
         NotificationPresenter.OnNotificationListChangedListener, ActiveModeSensor.Callback {

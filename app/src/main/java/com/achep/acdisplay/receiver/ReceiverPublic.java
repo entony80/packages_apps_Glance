@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,17 +16,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.receiver;
+package com.cypher.glance.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.achep.acdisplay.App;
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.base.utils.ToastUtils;
+import com.cypher.glance.App;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.base.utils.ToastUtils;
 
 /**
  * Created by Artem on 11.03.14.
@@ -69,7 +69,7 @@ public class ReceiverPublic extends BroadcastReceiver {
     }
 
     /**
-     * Tries to {@link com.achep.acdisplay.Config#setEnabled(android.content.Context, boolean, com.achep.acdisplay.Config.OnConfigChangedListener) enable / disable }
+     * Tries to {@link com.cypher.glance.Config#setEnabled(android.content.Context, boolean, com.cypher.glance.Config.OnConfigChangedListener) enable / disable }
      * AcDisplay and shows toast message about the result.
      *
      * @param enable {@code true} to enable AcDisplay, {@code false} to disable.

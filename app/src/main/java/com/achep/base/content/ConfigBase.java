@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.content;
+package com.cypher.base.content;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -30,12 +30,12 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.achep.base.Device;
-import com.achep.base.interfaces.IBackupable;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.interfaces.ISubscriptable;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.GzipUtils;
+import com.cypher.base.Device;
+import com.cypher.base.interfaces.IBackupable;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.interfaces.ISubscriptable;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.GzipUtils;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
@@ -53,7 +53,7 @@ import java.util.Map;
 
 import timber.log.Timber;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Saves all the configurations for the app.
@@ -414,7 +414,7 @@ public abstract class ConfigBase implements
     /**
      * A class that syncs {@link android.preference.Preference} with its
      * value in config. Sample class can be found here:
-     * {@link com.achep.base.ui.fragments.PreferenceFragment}
+     * {@link com.cypher.base.ui.fragments.PreferenceFragment}
      *
      * @author Artem Chepurnoy
      */

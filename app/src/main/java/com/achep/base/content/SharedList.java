@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.content;
+package com.cypher.base.content;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,16 +24,16 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.achep.base.interfaces.IBackupable;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.interfaces.ISubscriptable;
+import com.cypher.base.interfaces.IBackupable;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.interfaces.ISubscriptable;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Simple list which automatically saves items to private storage and restores on initialize.

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.dashboard;
+package com.cypher.base.dashboard;
 
 import android.content.Context;
 import android.content.Intent;
@@ -29,7 +29,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 
-import com.achep.acdisplay.R;
+import com.cypher.glance.R;
 
 /**
  * Description of a single dashboard tile that the user can select.
@@ -37,7 +37,7 @@ import com.achep.acdisplay.R;
 public class DashboardTile implements Parcelable {
 
     /**
-     * Default value for {@link com.achep.base.dashboard.DashboardTile#id DashboardTile.id}
+     * Default value for {@link com.cypher.base.dashboard.DashboardTile#id DashboardTile.id}
      * indicating that no identifier value is set. All other values (including those below -1)
      * are valid.
      */

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,20 +16,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 
-import static com.achep.acdisplay.graphics.BackgroundFactory.generate;
+import static com.cypher.glance.graphics.BackgroundFactory.generate;
 
 /**
  * Simple single-thread background factory.
  *
  * @author Artem Chepurnoy
- * @see com.achep.acdisplay.graphics.BackgroundFactory
- * @see com.achep.acdisplay.notifications.IconFactory
+ * @see com.cypher.glance.graphics.BackgroundFactory
+ * @see com.cypher.glance.notifications.IconFactory
  */
 class BackgroundFactory extends IconFactory {
 

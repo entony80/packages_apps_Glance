@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.components;
+package com.cypher.glance.ui.components;
 
 import android.annotation.SuppressLint;
 import android.content.res.ColorStateList;
@@ -41,26 +41,26 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.achep.acdisplay.Atomic;
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.graphics.BackgroundFactory;
-import com.achep.acdisplay.services.media.MediaController2;
-import com.achep.acdisplay.services.media.Metadata;
-import com.achep.acdisplay.ui.fragments.AcDisplayFragment;
-import com.achep.base.Device;
-import com.achep.base.tests.Check;
-import com.achep.base.ui.drawables.PlayPauseDrawable;
-import com.achep.base.ui.drawables.RippleDrawable2;
-import com.achep.base.utils.Operator;
-import com.achep.base.utils.ResUtils;
-import com.achep.base.utils.RippleUtils;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.Atomic;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.graphics.BackgroundFactory;
+import com.cypher.glance.services.media.MediaController2;
+import com.cypher.glance.services.media.Metadata;
+import com.cypher.glance.ui.fragments.AcDisplayFragment;
+import com.cypher.base.Device;
+import com.cypher.base.tests.Check;
+import com.cypher.base.ui.drawables.PlayPauseDrawable;
+import com.cypher.base.ui.drawables.RippleDrawable2;
+import com.cypher.base.utils.Operator;
+import com.cypher.base.utils.ResUtils;
+import com.cypher.base.utils.RippleUtils;
+import com.cypher.base.utils.ViewUtils;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
- * Media widget for {@link com.achep.acdisplay.ui.fragments.AcDisplayFragment} that provides
+ * Media widget for {@link com.cypher.glance.ui.fragments.AcDisplayFragment} that provides
  * basic media controls and has a nice skin.
  *
  * @author Artem Chepurnoy
@@ -230,8 +230,8 @@ public class MediaWidget extends Widget implements
         mArtwork = bitmap;
         mArtworkBackground = null;
 
-        com.achep.base.async.AsyncTask.stop(mPaletteWorker);
-        com.achep.base.async.AsyncTask.stop(mBackgroundWorker);
+        com.cypher.base.async.AsyncTask.stop(mPaletteWorker);
+        com.cypher.base.async.AsyncTask.stop(mBackgroundWorker);
         updatePlayPauseButtonColor(Color.WHITE); // Reset color
         updateSeekBarColor(Color.WHITE); // Reset color
 
@@ -294,7 +294,7 @@ public class MediaWidget extends Widget implements
 
     /**
      * Updates the content of the view to latest metadata
-     * provided by {@link com.achep.acdisplay.services.media.MediaController2#getMetadata()}.
+     * provided by {@link com.cypher.glance.services.media.MediaController2#getMetadata()}.
      */
     private void populateMetadata() {
         if (mIdle) {

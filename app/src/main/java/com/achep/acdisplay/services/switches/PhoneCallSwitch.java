@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.switches;
+package com.cypher.glance.services.switches;
 
 import android.content.Context;
 import android.os.Handler;
@@ -24,13 +24,13 @@ import android.support.annotation.NonNull;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 
-import com.achep.acdisplay.services.Switch;
+import com.cypher.glance.services.Switch;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 
 /**
- * Prevents {@link com.achep.acdisplay.services.SwitchService} from working
+ * Prevents {@link com.cypher.glance.services.SwitchService} from working
  * while an phone app is calling.
  *
  * @author Artem Chepurnoy

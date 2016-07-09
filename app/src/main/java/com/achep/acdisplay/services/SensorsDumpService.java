@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services;
+package com.cypher.glance.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -31,16 +31,16 @@ import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.base.AppHeap;
-import com.achep.base.utils.FileUtils;
-import com.achep.base.utils.power.PowerUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.base.AppHeap;
+import com.cypher.base.utils.FileUtils;
+import com.cypher.base.utils.power.PowerUtils;
 
 import java.io.File;
 import java.util.LinkedList;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Created by achep on 24.08.14.

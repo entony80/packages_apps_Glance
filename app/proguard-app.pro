@@ -70,13 +70,13 @@
 #########
 
 # Keep fragments of settings to be able to access them from resources.
--keep public class com.achep.acdisplay.ui.fragments.settings.** extends android.app.Fragment
+-keep public class com.cypher.glance.ui.fragments.settings.** extends android.app.Fragment
 
 # Keep Xposed modules, cause they're predefined in /assets/xposed_init
--keep public class com.achep.acdisplay.plugins.xposed.**
+-keep public class com.cypher.glance.plugins.xposed.**
 
 # Keep Config methods to be able to access them using reflections.
--keepclassmembers public class com.achep.acdisplay.Config {
+-keepclassmembers public class com.cypher.glance.Config {
    *;
 }
 

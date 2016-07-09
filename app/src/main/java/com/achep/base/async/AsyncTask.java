@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,16 +16,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.async;
+package com.cypher.base.async;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import com.achep.base.AppHeap;
-import com.achep.base.interfaces.IOnLowMemory;
-import com.achep.base.utils.IOUtils;
-import com.achep.base.utils.NetworkUtils;
+import com.cypher.base.AppHeap;
+import com.cypher.base.interfaces.IOnLowMemory;
+import com.cypher.base.utils.IOUtils;
+import com.cypher.base.utils.NetworkUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

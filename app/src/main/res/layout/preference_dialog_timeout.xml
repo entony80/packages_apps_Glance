@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -23,7 +23,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/normal_timeout_title"
         style="?dialogMessageStyle"
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/preference_timeout_normal" />
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/normal_timeout_value"
         style="?dialogMessageStyle"
         android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
         android:layout_toLeftOf="@id/normal_timeout_value"
         android:layout_toStartOf="@id/normal_timeout_value" />
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/short_timeout_title"
         style="?dialogMessageStyle"
         android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/preference_timeout_short" />
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/short_timeout_value"
         style="?dialogMessageStyle"
         android:layout_width="wrap_content"

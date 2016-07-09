@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments.dialogs;
+package com.cypher.base.ui.fragments.dialogs;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -24,9 +24,9 @@ import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 
-import com.achep.acdisplay.R;
-import com.achep.base.AppHeap;
-import com.achep.base.interfaces.IConfiguration;
+import com.cypher.glance.R;
+import com.cypher.base.AppHeap;
+import com.cypher.base.interfaces.IConfiguration;
 import com.afollestad.materialdialogs.MaterialDialog;
 
 /**

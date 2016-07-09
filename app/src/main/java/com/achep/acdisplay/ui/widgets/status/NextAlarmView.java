@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.widgets.status;
+package com.cypher.glance.ui.widgets.status;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -28,9 +28,6 @@ import android.widget.TextView;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by achep on 03.08.14.
- */
 // TODO: Watch for alarm changes
 public class NextAlarmView extends TextView {
 

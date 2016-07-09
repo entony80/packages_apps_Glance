@@ -7,7 +7,7 @@ import android.hardware.SensorManager;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 
-import com.achep.base.tests.Check;
+import com.cypher.base.tests.Check;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,7 +24,7 @@ import java.util.List;
 /*
  * Edited by Artem Chepurnoy
  *
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License

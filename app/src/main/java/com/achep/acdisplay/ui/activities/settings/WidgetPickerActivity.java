@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.activities.settings;
+package com.cypher.glance.ui.activities.settings;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -34,22 +34,22 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.SeekBar;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.appwidget.MyAppWidgetHost;
-import com.achep.acdisplay.appwidget.MyAppWidgetHostView;
-import com.achep.acdisplay.ui.components.HostWidget;
-import com.achep.base.Device;
-import com.achep.base.content.ConfigBase;
-import com.achep.base.tests.Check;
-import com.achep.base.ui.SwitchBarPermissible;
-import com.achep.base.ui.activities.ActivityBase;
-import com.achep.base.ui.preferences.Enabler;
-import com.achep.base.ui.widgets.SwitchBar;
-import com.achep.base.utils.AppWidgetUtils;
-import com.achep.base.utils.MathUtils;
-import com.achep.base.utils.ToastUtils;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.appwidget.MyAppWidgetHost;
+import com.cypher.glance.appwidget.MyAppWidgetHostView;
+import com.cypher.glance.ui.components.HostWidget;
+import com.cypher.base.Device;
+import com.cypher.base.content.ConfigBase;
+import com.cypher.base.tests.Check;
+import com.cypher.base.ui.SwitchBarPermissible;
+import com.cypher.base.ui.activities.ActivityBase;
+import com.cypher.base.ui.preferences.Enabler;
+import com.cypher.base.ui.widgets.SwitchBar;
+import com.cypher.base.utils.AppWidgetUtils;
+import com.cypher.base.utils.MathUtils;
+import com.cypher.base.utils.ToastUtils;
+import com.cypher.base.utils.ViewUtils;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.melnykov.fab.FloatingActionButton;
 
@@ -66,7 +66,7 @@ public class WidgetPickerActivity extends ActivityBase implements
         SeekBar.OnSeekBarChangeListener {
     private static final String TAG = "WidgetPickerActivity";
 
-    private static final String KEY_PENDING_APPWIDGET_ID = "achep::pending_app_widget_key";
+    private static final String KEY_PENDING_APPWIDGET_ID = "cypher::pending_app_widget_key";
 
     /**
      * A request to open default AppWidget Picker dialog.

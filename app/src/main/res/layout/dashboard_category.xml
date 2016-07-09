@@ -32,7 +32,7 @@
     android:paddingStart="@dimen/dashboard_category_padding_start"
     tools:ignore="Overdraw,UnusedAttribute">
 
-    <com.achep.base.ui.widgets.TextView
+    <com.cypher.base.ui.widgets.TextView
         android:id="@+id/category_title"
         style="?dashboardCategoryTitle"
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
         android:paddingStart="@dimen/dashboard_category_title_margin_start"
         android:textAlignment="viewStart" />
 
-    <com.achep.base.ui.widgets.DashboardLayout
+    <com.cypher.base.ui.widgets.DashboardLayout
         android:id="@+id/category_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

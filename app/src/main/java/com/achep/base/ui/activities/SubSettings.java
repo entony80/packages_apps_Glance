@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,12 +16,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.activities;
+package com.cypher.base.ui.activities;
 
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.achep.base.dashboard.DashboardTile;
+import com.cypher.base.dashboard.DashboardTile;
 
 /**
  * Stub class for showing sub-settings; we can't use the main Settings class

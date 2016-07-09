@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,24 +16,24 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.services.activemode.sensors;
+package com.cypher.glance.services.activemode.sensors;
 
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.achep.acdisplay.services.activemode.ActiveModeSensor;
+import com.cypher.glance.services.activemode.ActiveModeSensor;
 
 import java.lang.ref.WeakReference;
 
 import uk.co.jarofgreen.lib.ShakeDetector;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * Basing on results of accelerometer sensor it notifies when
- * {@link com.achep.acdisplay.ui.activities.AcDisplayActivity AcDisplay}
+ * {@link com.cypher.glance.ui.activities.AcDisplayActivity AcDisplay}
  * should be shown.
  *
  * @author Artem Chepurnoy

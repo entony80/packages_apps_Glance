@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.permissions;
+package com.cypher.base.permissions;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,13 +24,13 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 
-import com.achep.acdisplay.permissions.PermissionAccessibility;
-import com.achep.acdisplay.permissions.PermissionDeviceAdmin;
-import com.achep.acdisplay.permissions.PermissionNotificationListener;
-import com.achep.acdisplay.permissions.PermissionUsageStats;
-import com.achep.base.interfaces.IPermission;
-import com.achep.base.interfaces.ISubscriptable;
-import com.achep.base.utils.IntentUtils;
+import com.cypher.glance.permissions.PermissionAccessibility;
+import com.cypher.glance.permissions.PermissionDeviceAdmin;
+import com.cypher.glance.permissions.PermissionNotificationListener;
+import com.cypher.glance.permissions.PermissionUsageStats;
+import com.cypher.base.interfaces.IPermission;
+import com.cypher.base.interfaces.ISubscriptable;
+import com.cypher.base.utils.IntentUtils;
 
 import java.util.ArrayList;
 
@@ -42,38 +42,38 @@ public abstract class Permission implements
         IPermission {
 
     /**
-     * @see com.achep.acdisplay.permissions.PermissionAccessibility
+     * @see com.cypher.glance.permissions.PermissionAccessibility
      */
     @NonNull
     public static final String PERMISSION_ACCESSIBILITY =
             PermissionAccessibility.class.getSimpleName();
 
     /**
-     * @see com.achep.acdisplay.permissions.PermissionDeviceAdmin
+     * @see com.cypher.glance.permissions.PermissionDeviceAdmin
      */
     @NonNull
     public static final String PERMISSION_DEVICE_ADMIN =
             PermissionDeviceAdmin.class.getSimpleName();
 
     /**
-     * @see com.achep.acdisplay.permissions.PermissionNotificationListener
+     * @see com.cypher.glance.permissions.PermissionNotificationListener
      */
     @NonNull
     public static final String PERMISSION_NOTIFICATION_LISTENER =
             PermissionNotificationListener.class.getSimpleName();
 
     /**
-     * @see com.achep.acdisplay.permissions.PermissionUsageStats
+     * @see com.cypher.glance.permissions.PermissionUsageStats
      */
     @NonNull
     public static final String PERMISSION_USAGE_STATS =
             PermissionUsageStats.class.getSimpleName();
 
     /**
-     * @see com.achep.base.permissions.Permission#PERMISSION_ACCESSIBILITY
-     * @see com.achep.base.permissions.Permission#PERMISSION_DEVICE_ADMIN
-     * @see com.achep.base.permissions.Permission#PERMISSION_NOTIFICATION_LISTENER
-     * @see com.achep.base.permissions.Permission#PERMISSION_USAGE_STATS
+     * @see com.cypher.base.permissions.Permission#PERMISSION_ACCESSIBILITY
+     * @see com.cypher.base.permissions.Permission#PERMISSION_DEVICE_ADMIN
+     * @see com.cypher.base.permissions.Permission#PERMISSION_NOTIFICATION_LISTENER
+     * @see com.cypher.base.permissions.Permission#PERMISSION_USAGE_STATS
      */
     @NonNull
     public static Permission newInstance(@NonNull Context context, @NonNull String name) {

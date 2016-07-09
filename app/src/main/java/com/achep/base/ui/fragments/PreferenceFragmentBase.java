@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.achep.base.ui.fragments;
+package com.cypher.base.ui.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,10 +28,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.achep.acdisplay.R;
-import com.achep.base.async.WeakHandler;
-import com.achep.base.ui.fragments.leakcanary.LeakWatchFragment;
-import com.achep.base.utils.PreferenceManagerUtils;
+import com.cypher.glance.R;
+import com.cypher.base.async.WeakHandler;
+import com.cypher.base.ui.fragments.leakcanary.LeakWatchFragment;
+import com.cypher.base.utils.PreferenceManagerUtils;
 
 import java.lang.reflect.Method;
 

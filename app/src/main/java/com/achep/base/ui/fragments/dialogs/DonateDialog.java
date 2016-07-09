@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.fragments.dialogs;
+package com.cypher.base.ui.fragments.dialogs;
 
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
@@ -33,20 +33,20 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.achep.acdisplay.R;
-import com.achep.base.AppHeap;
-import com.achep.base.billing.Bitcoin;
-import com.achep.base.billing.PayPal;
-import com.achep.base.billing.SkuUi;
-import com.achep.base.interfaces.IActivityBase;
-import com.achep.base.interfaces.IConfiguration;
-import com.achep.base.ui.adapters.BetterArrayAdapter;
-import com.achep.base.ui.widgets.HeaderGridView;
-import com.achep.base.ui.widgets.TextView;
-import com.achep.base.utils.CoinUtils;
-import com.achep.base.utils.RippleUtils;
-import com.achep.base.utils.ToastUtils;
-import com.achep.base.utils.ViewUtils;
+import com.cypher.glance.R;
+import com.cypher.base.AppHeap;
+import com.cypher.base.billing.Bitcoin;
+import com.cypher.base.billing.PayPal;
+import com.cypher.base.billing.SkuUi;
+import com.cypher.base.interfaces.IActivityBase;
+import com.cypher.base.interfaces.IConfiguration;
+import com.cypher.base.ui.adapters.BetterArrayAdapter;
+import com.cypher.base.ui.widgets.HeaderGridView;
+import com.cypher.base.ui.widgets.TextView;
+import com.cypher.base.utils.CoinUtils;
+import com.cypher.base.utils.RippleUtils;
+import com.cypher.base.utils.ToastUtils;
+import com.cypher.base.utils.ViewUtils;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 
@@ -62,7 +62,7 @@ import org.solovyev.android.checkout.Sku;
 
 import java.util.Comparator;
 
-import static com.achep.base.Build.DEBUG;
+import static com.cypher.base.Build.DEBUG;
 
 /**
  * @author Artem Chepurnoy

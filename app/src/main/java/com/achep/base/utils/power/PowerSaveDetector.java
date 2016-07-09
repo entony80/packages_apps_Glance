@@ -1,4 +1,4 @@
-package com.achep.base.utils.power;
+package com.cypher.base.utils.power;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;
@@ -9,14 +9,14 @@ import android.os.Build;
 import android.os.PowerManager;
 import android.support.annotation.NonNull;
 
-import com.achep.acdisplay.Atomic;
-import com.achep.base.Device;
-import com.achep.base.interfaces.IPowerSave;
-import com.achep.base.interfaces.ISubscriptable;
+import com.cypher.glance.Atomic;
+import com.cypher.base.Device;
+import com.cypher.base.interfaces.IPowerSave;
+import com.cypher.base.interfaces.ISubscriptable;
 
 import java.util.ArrayList;
 
-import static com.achep.base.Build.DEBUG_POWER_SAVING;
+import static com.cypher.base.Build.DEBUG_POWER_SAVING;
 
 /**
  * @author Artem Chepurnoy

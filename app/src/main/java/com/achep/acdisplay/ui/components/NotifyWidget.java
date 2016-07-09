@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.ui.components;
+package com.cypher.glance.ui.components;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -31,18 +31,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.achep.acdisplay.Config;
-import com.achep.acdisplay.R;
-import com.achep.acdisplay.interfaces.INotificatiable;
-import com.achep.acdisplay.notifications.Action;
-import com.achep.acdisplay.notifications.NotificationUtils;
-import com.achep.acdisplay.notifications.OpenNotification;
-import com.achep.acdisplay.ui.fragments.AcDisplayFragment;
-import com.achep.acdisplay.ui.widgets.notification.NotificationActions;
-import com.achep.acdisplay.ui.widgets.notification.NotificationIconWidget;
-import com.achep.acdisplay.ui.widgets.notification.NotificationWidget;
-import com.achep.acdisplay.utils.PendingIntentUtils;
-import com.achep.base.tests.Check;
+import com.cypher.glance.Config;
+import com.cypher.glance.R;
+import com.cypher.glance.interfaces.INotificatiable;
+import com.cypher.glance.notifications.Action;
+import com.cypher.glance.notifications.NotificationUtils;
+import com.cypher.glance.notifications.OpenNotification;
+import com.cypher.glance.ui.fragments.AcDisplayFragment;
+import com.cypher.glance.ui.widgets.notification.NotificationActions;
+import com.cypher.glance.ui.widgets.notification.NotificationIconWidget;
+import com.cypher.glance.ui.widgets.notification.NotificationWidget;
+import com.cypher.glance.utils.PendingIntentUtils;
+import com.cypher.base.tests.Check;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

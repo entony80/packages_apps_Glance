@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -26,7 +26,7 @@
     android:orientation="vertical">
 
     <!-- Host layout for all widgets. -->
-    <com.achep.acdisplay.ui.view.ForwardingLayout
+    <com.cypher.glance.ui.view.ForwardingLayout
         android:id="@+id/scene"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -41,7 +41,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp">
 
-        <com.achep.acdisplay.ui.widgets.ProgressBar
+        <com.cypher.glance.ui.widgets.ProgressBar
             android:id="@+id/progress"
             style="?android:progressBarStyleHorizontal"
             android:layout_width="match_parent"
@@ -64,7 +64,7 @@
         android:layout_weight="0.4"
         android:orientation="vertical">
 
-        <com.achep.acdisplay.ui.view.ForwardingLayout
+        <com.cypher.glance.ui.view.ForwardingLayout
             android:id="@+id/forwarding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 android:orientation="horizontal"
                 android:stretchMode="columnWidth" />
 
-        </com.achep.acdisplay.ui.view.ForwardingLayout>
+        </com.cypher.glance.ui.view.ForwardingLayout>
 
     </FrameLayout>
 

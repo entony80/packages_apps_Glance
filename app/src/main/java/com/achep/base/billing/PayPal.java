@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.billing;
+package com.cypher.base.billing;
 
 import android.net.Uri;
 import android.support.annotation.DrawableRes;
@@ -24,8 +24,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 
-import com.achep.acdisplay.R;
-import com.achep.base.interfaces.ICoin;
+import com.cypher.glance.R;
+import com.cypher.base.interfaces.ICoin;
 
 /**
  * PayPal's very basics.

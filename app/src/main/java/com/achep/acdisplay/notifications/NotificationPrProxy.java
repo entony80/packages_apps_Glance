@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.notifications;
+package com.cypher.glance.notifications;
 
 import android.content.Context;
 import android.os.Handler;
@@ -26,15 +26,15 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.achep.base.Build;
-import com.achep.base.Device;
-import com.achep.base.utils.Operator;
+import com.cypher.base.Build;
+import com.cypher.base.Device;
+import com.cypher.base.utils.Operator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import static com.achep.acdisplay.notifications.NotificationPresenter.FLAG_IMMEDIATELY;
+import static com.cypher.glance.notifications.NotificationPresenter.FLAG_IMMEDIATELY;
 
 /**
  * Processes the notification flow, and re-transfers it through the

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+  ~ Copyright (C) 2016 CypherOS
   ~
   ~ This program is free software; you can redistribute it and/or
   ~ modify it under the terms of the GNU General Public License
@@ -24,8 +24,8 @@
         android:key="ui_custom_widget"
         android:title="@string/settings_custom_widget_title" >
         <intent
-            android:targetClass="com.achep.acdisplay.ui.activities.settings.WidgetPickerActivity"
-            android:targetPackage="com.achep.acdisplay" />
+            android:targetClass="com.cypher.glance.ui.activities.settings.WidgetPickerActivity"
+            android:targetPackage="com.cypher.glance" />
     </Preference>
 
     <CheckBoxPreference
@@ -45,7 +45,7 @@
         android:key="dynamic_background_mode"
         android:title="@string/settings_dynamic_background_title" />
 
-    <com.achep.acdisplay.ui.preferences.IconSizePreference
+    <com.cypher.glance.ui.preferences.IconSizePreference
         android:dialogIcon="@drawable/ic_dialog_icon_size_white"
         android:dialogTitle="@string/settings_icon_size_title"
         android:key="icon_size"
@@ -70,13 +70,13 @@
             android:key="unlock_animation"
             android:title="@string/settings_circle_animation_title" />
 
-        <com.achep.acdisplay.ui.preferences.ColorPickerPreference
+        <com.cypher.glance.ui.preferences.ColorPickerPreference
             android:dialogIcon="@drawable/ic_settings_keyguard_white"
             android:dialogTitle="@string/settings_circle_color_inner_title"
             android:key="ui_circle_color_inner"
             android:title="@string/settings_circle_color_inner_title" />
 
-        <com.achep.acdisplay.ui.preferences.ColorPickerPreference
+        <com.cypher.glance.ui.preferences.ColorPickerPreference
             android:dialogIcon="@drawable/ic_settings_keyguard_white"
             android:dialogTitle="@string/settings_circle_color_outer_title"
             android:key="ui_circle_color_outer"

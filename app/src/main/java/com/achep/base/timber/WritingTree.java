@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.timber;
+package com.cypher.base.timber;
 
 import android.Manifest;
 import android.content.Context;
@@ -24,12 +24,12 @@ import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.achep.base.AppHeap;
-import com.achep.base.Build;
-import com.achep.base.permissions.RuntimePermissions;
-import com.achep.base.tests.Check;
-import com.achep.base.utils.EncryptionUtils;
-import com.achep.base.utils.FileUtils;
+import com.cypher.base.AppHeap;
+import com.cypher.base.Build;
+import com.cypher.base.permissions.RuntimePermissions;
+import com.cypher.base.tests.Check;
+import com.cypher.base.utils.EncryptionUtils;
+import com.cypher.base.utils.FileUtils;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -38,7 +38,7 @@ import java.util.Locale;
 
 import timber.log.Timber;
 
-import static com.achep.base.Build.ENCRYPT_LOGS;
+import static com.cypher.base.Build.ENCRYPT_LOGS;
 
 /**
  * Async-ly writes all logs to a file.

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base.ui.drawables;
+package com.cypher.base.ui.drawables;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -32,14 +32,14 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Property;
 
-import com.achep.base.utils.FloatProperty;
+import com.cypher.base.utils.FloatProperty;
 
 /**
  * A class for creating simple transformation buttons. It is very simple to
  * use and perfectly fits simple Material icons' transformation.
  *
  * @author Artem Chepurnoy
- * @see com.achep.base.ui.drawables.PlayPauseDrawable
+ * @see com.cypher.base.ui.drawables.PlayPauseDrawable
  */
 public abstract class TransformationDrawable extends Drawable {
 

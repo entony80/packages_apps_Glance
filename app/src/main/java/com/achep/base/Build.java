@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.base;
+package com.cypher.base;
 
 import android.support.annotation.NonNull;
 
-import com.achep.acdisplay.BuildConfig;
+import com.cypher.glance.BuildConfig;
 
 /**
  * Contains a number of build constants mostly redirected from

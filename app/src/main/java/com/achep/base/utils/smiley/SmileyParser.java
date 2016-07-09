@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.achep.base.utils.smiley;
+package com.cypher.base.utils.smiley;
 
 import android.app.Application;
 import android.content.Context;
@@ -25,8 +25,8 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ImageSpan;
 
-import com.achep.acdisplay.R;
-import com.achep.base.tests.Check;
+import com.cypher.glance.R;
+import com.cypher.base.tests.Check;
 
 import java.util.HashMap;
 import java.util.regex.Matcher;

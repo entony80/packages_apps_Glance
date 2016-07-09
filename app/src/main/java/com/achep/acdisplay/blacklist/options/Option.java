@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 AChep@xda <artemchep@gmail.com>
+ * Copyright (C) 2016 CypherOS
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,16 +16,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-package com.achep.acdisplay.blacklist.options;
+package com.cypher.glance.blacklist.options;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.widget.CompoundButton;
 
-import com.achep.acdisplay.blacklist.AppConfig;
-import com.achep.acdisplay.blacklist.Blacklist;
-import com.achep.base.utils.Operator;
+import com.cypher.glance.blacklist.AppConfig;
+import com.cypher.glance.blacklist.Blacklist;
+import com.cypher.base.utils.Operator;
 
 /**
  * Created by Artem on 27.02.14.
@@ -64,9 +64,9 @@ public abstract class Option extends Blacklist.OnBlacklistChangedListener implem
 
     /**
      * @return diff mask of current option.
-     * @see com.achep.acdisplay.blacklist.AppConfig#DIFF_HIDDEN
-     * @see com.achep.acdisplay.blacklist.AppConfig#DIFF_RESTRICTED
-     * @see com.achep.acdisplay.blacklist.AppConfig#DIFF_NON_CLEARABLE
+     * @see com.cypher.glance.blacklist.AppConfig#DIFF_HIDDEN
+     * @see com.cypher.glance.blacklist.AppConfig#DIFF_RESTRICTED
+     * @see com.cypher.glance.blacklist.AppConfig#DIFF_NON_CLEARABLE
      */
     public abstract int getDiffMask();
 

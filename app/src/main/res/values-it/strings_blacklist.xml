@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 CypherOS
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+    <string name="blacklist">Lista nera</string>
+    <string name="blacklist_app_config">Impostazioni app</string>
+
+    <!-- Hide from AcDisplay -->
+    <string name="blacklist_app_hide_title">Nascondi</string>
+    <string name="blacklist_app_hide_summary">Le notifiche di queste applicazioni non verranno visualizzate.</string>
+
+    <!-- Do not turn on -->
+    <string name="blacklist_app_restricted_title">Silenzioso</string>
+    <string name="blacklist_app_restricted_summary">Le notifiche da questa applicazione non si sveglieranno AcDisplay.</string>
+
+    <!-- Show non-clearable notifications -->
+    <string name="blacklist_app_non_clearable_title">Notifica non sbloccabile</string>
+    <string name="blacklist_app_non_clearable_summary">Visualizza le notifiche non sbloccabile/in corso, come quelli da servizi.</string>
+
+</resources>

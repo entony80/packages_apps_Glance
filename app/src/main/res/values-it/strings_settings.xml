@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 CypherOS
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+    <!-- Settings -->
+    <string name="settings">Impostazioni</string>
+    <string name="settings_multi_list_divider">,&#160;</string>
+    <string name="settings_unknown_value">Valore sconosciuto</string>
+
+    <!-- Placeholder -->
+    <string name="settings_placeholder_title">Segnaposto</string>
+    <string name="settings_placeholder_summary">Un posto per le opzioni future.</string>
+
+    <!-- Headers -->
+    <string name="settings_category_features">Caratteristiche</string>
+    <string name="settings_keyguard_title">Blocca schermo</string>
+    <string name="settings_active_title">Modalità attiva</string>
+    <string name="settings_category_settings">Impostazioni</string>
+    <string name="settings_app_settings_title">Applicazioni</string>
+    <string name="settings_notification_title">Notifiche</string>
+    <string name="settings_interface_title">Interfaccia</string>
+    <string name="settings_more_title">Altro…</string>
+    <string name="settings_dev_title">Sviluppo</string>
+
+    <!-- Lockscreen -->
+    <string name="settings_keyguard_description">Utilizzare AcDisplay come un blocca schermo. Questa è una funzione beta e può essere instabile.</string>
+    <string name="settings_keyguard_respect_inactive_time_title">Disabilitare durante il periodo di inattività</string>
+    <string name="settings_active_disable_on_low_battery_title">Disabilitare con batteria bassa</string>
+    <string name="settings_keyguard_enabled_when_notification_list_empty_title">Attivare quando non ci sono notifiche</string>
+    <string name="settings_keyguard_enabled_when_notification_list_empty_on">Blocca schermo è attivato indipendentemente dal fatto che ci sono notifiche o no.</string>
+    <string name="settings_keyguard_enabled_when_notification_list_empty_off">Blocca schermo è disattivata quando non ci sono notifiche.</string>
+    <string name="settings_active_active_charging_title">Ascoltare sempre una traccia durante la carica</string>
+    <string name="settings_keyguard_lock_delay_title">Ritardo de blocco</string>
+    <string name="settings_security_category">Sicurezza</string>
+    <string name="settings_security_disclaimer">Avvertimento! Queste opzioni sono progettate per impedire blocchi accidentali.Leggere la guida per maggiori informazioni…</string>
+
+    <!-- Active mode -->
+    <string name="settings_active_description">Modalità attiva utilizza i sensori del dispositivo per riattivarlo solo quando ne avete bisogno. Questo serve quando si estrae il dispositivo dalla tasca per un rapido sguardo alle notifiche. La modalità attiva non mantiene la CPU in esecuzione,  in modo da non avere un maggior utilizzo della batteria.</string>
+    <string name="settings_active_respect_inactive_time_title">Disabilita durante il periodo di inattività</string>
+    <string name="settings_active_enabled_when_notification_list_empty_title">Attiva quando nono ci sono notifiche</string>
+    <string name="settings_active_enabled_when_notification_list_empty_on">La modalità è attivata indipendentemente dal fatto che ci sono notifiche o no.</string>
+    <string name="settings_active_enabled_when_notification_list_empty_off">La modalità è disattivata quando non ci sono notifiche.</string>
+    <!-- Advanced -->
+    <string name="settings_advanced_category">Avanzate</string>
+    <string name="settings_proximity_sensor_title">Sensore di prossimità</string>
+    <string name="settings_active_wave_to_wake_title">Gesto ruota schermo</string>
+    <string name="settings_active_wave_to_wake_on">Chiudere lentamente e quindi aprire il sensore di prossimità per attivare lo schermo.</string>
+
+    <!-- Notifications -->
+    <string name="settings_wake_up_on_notification_title">Svegliarsi sulla notifica</string>
+    <string name="settings_notify_glance_title">Rapida occhiata</string>
+    <string name="settings_notify_glance_summary">Svegliarsi con una notifica aperta</string>
+    <string name="settings_notify_min_priority_title">Priorità minima</string>
+    <string name="settings_notify_max_priority_title">Priorità massima</string>
+
+    <!-- Interface -->
+    <string name="settings_full_screen_title">Modalità schermo intero</string>
+    <string name="settings_use_wallpaper_title">Usare lo sfondo</string>
+    <string name="settings_use_wallpaper_on">Lo sfondo della schermata iniziale verrà utilizzato per lo sfondo.</string>
+    <string name="settings_use_wallpaper_off">Sfondo nero.</string>
+    <string name="settings_dynamic_background_title">Sfondo dinamico</string>
+    <string name="settings_dynamic_background_summary">Quelli sono usati come sfondo: %1$s</string>
+    <string name="settings_dynamic_background_disabled">Disabilitato</string>
+    <string name="settings_status_battery_always_visible">Mantenere lo stato della batteria</string>
+    <string name="settings_status_battery_always_visible_off">Lo stato della batteria viene visualizzato quando la batteria è scarica o se il dispositivo è collegato.</string>
+    <string name="settings_emoticons_title">Emoticons</string>
+    <string name="settings_override_fonts_title">Sostituire i caratteri di sistema</string>
+    <string name="settings_custom_widget_title">Widget</string>
+    <string name="settings_custom_widget_empty_message">Nessun widget personalizzato è impostato. Fare clic sul pulsante per sceglierne uno.</string>
+    <string name="settings_custom_widget_empty_message_acdisplay">Nessun insieme di widget personalizzati.</string>
+    <string name="settings_custom_widget_adjust_width">Larghezza:</string>
+    <string name="settings_custom_widget_adjust_height">Altezza:</string>
+    <string name="settings_custom_widget_touchable">Al tocco</string>
+    <string name="settings_circle_category">Sblocca cerchio</string>
+    <string name="settings_circle_animation_title">Sblocca l\'animazione</string>
+    <string name="settings_circle_color_inner_title">Colore cerchio</string>
+    <string name="settings_circle_color_outer_title">Sfondo cerchio</string>
+
+    <!-- Development -->
+    <string name="settings_dev_sensors_dump_title">Dump dei dati dai sensori</string>
+    <string name="settings_dev_sensors_dump_on">Continuamente salva lo stato del dispositivo e dei dati dai sensori nel file sulla memoria.</string>
+    <string name="settings_dev_sensors_dump_send_title">Invia i dati salvati</string>
+
+    <!-- More… -->
+    <string name="settings_only_while_charging_title">Solo durante la carica</string>
+    <string name="settings_only_while_charging_on">AcDisplay sarà attivo solo quando il dispositivo è in carica. Questo vale per tutte le funzioni, anche la modalità attiva sul blocca schermo.</string>
+    <string name="settings_only_while_charging_off">Applicazione è attiva per tutto il tempo.</string>
+    <string name="settings_inactive_hours_title">Ore inattivi</string>
+    <string name="settings_inactive_hours_disabled">Disabilitato</string>
+    <string name="settings_inactive_hours_enabled">Da %1$s di %2$s.</string>
+    <string name="settings_timeout_title">Dormire</string>
+    <string name="settings_timeout_summary">Dopo  %1$s / %2$s secondi di inattività.</string>
+    <string name="settings_icon_size_title">Dimensione icona</string>
+    <string name="settings_icon_size_summary">Le dimensioni attuali delle icone sono %1$s dpi.</string>
+    <string name="settings_double_tap_to_sleep_title">Doppio tocco per sospendere</string>
+    <string name="settings_media_widget_title">Widget musica</string>
+    <string name="settings_media_widget_summary">Mostra un widget di supporto durante la riproduzione di musica (disabilitare per aumentare la stabilità)</string>
+    <!-- Corner gestures -->
+    <string name="settings_corner_actions_category">Angolo gesti</string>
+    <string name="settings_corner_actions_summary">Scegli cosa fare quando scorri da un angolo al centro dello schermo.</string>
+    <string name="settings_corner_left_top_title">Angolo superiore sinistro</string>
+    <string name="settings_corner_right_top_title">Angolo superiore destro</string>
+    <string name="settings_corner_left_bottom_title">Angolo inferiore sinistro</string>
+    <string name="settings_corner_right_bottom_title">Angolo inferiore destro</string>
+    <!-- Behavior -->
+    <string name="settings_behavior_category">Comportamento</string>
+    <string name="settings_lock_on_dismiss_last_notify_title">Blocco eliminazione ultima notifica</string>
+    <string name="settings_lock_on_dismiss_last_notify_on">Lo schermo si spegne dopo l\'eliminazione dell\'ultima notifica presente.</string>
+    <string name="settings_lock_on_dismiss_last_notify_off">Lo schermo rimane acceso dopo l\'eliminazione dell\'ultima notifica presente.</string>
+    <string name="settings_widget_pinnable_title">Preavviso notifica</string>
+    <string name="settings_widget_pinnable_on">Il widget di notifica rimane ampliato per alcuni secondi dopo un tocco.</string>
+    <string name="settings_privacy_mode_title">Privacy (su blocco sicuro)</string>
+    <string name="settings_privacy_mode_disabled">Disabilitato</string>
+    <!-- Data -->
+    <string name="settings_data_category">Data</string>
+    <string name="settings_restore_defaults_title">Ripristina i valori predefiniti</string>
+    <string name="settings_restore_defaults_summary">Cancella tutte le impostazioni degli utenti esclusa la lista nera.</string>
+    <string name="settings_restore_defaults_warning_title">Ripristina le impostazioni predefinite?</string>
+    <string name="settings_restore_defaults_warning_message">Tutte le impostazioni escluse la lista nera saranno cancellate! Non sarà possibile annullare questa azione.</string>
+    <string name="settings_data_backup_title">Backup delle impostazioni</string>
+    <string name="settings_data_restore_title">Caricare le impostazioni</string>
+
+    <!-- Preference: Inactive hours -->
+    <string name="preference_inactive_hours_enabled">Ore inattive abilitate</string>
+    <string name="preference_inactive_hours_from"><![CDATA[
+        from:<br/><b><font color="#ffffff">%1$s</font></b>
+    ]]></string>
+    <string name="preference_inactive_hours_to"><![CDATA[
+        to:<br/><b><font color="#ffffff">%1$s</font></b>
+    ]]></string>
+
+    <!-- Preference: Sleep timeouts -->
+    <string name="preference_timeout_normal">Dopo il risveglio o la selezione di una notifica</string>
+    <string name="preference_timeout_short">Dopo aver toccato un\'area inattiva</string>
+    <string name="preference_timeout_sec">%1$s sec.</string>
+
+    <!-- Preference: Icon size -->
+    <string name="preference_icon_size_message">Regolare la dimensione delle icone di notifica.</string>
+    <string name="preference_icon_size_dpi">%1$s dpi.</string>
+
+    <!-- Preference: Color picker -->
+    <string name="preference_colorpicker_random_color">Colori casuali</string>
+    <string name="preference_colorpicker_custom_color">Colori definiti</string>
+
+</resources>
